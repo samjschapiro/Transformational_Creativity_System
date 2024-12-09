@@ -1,1 +1,1 @@
-![alt text](image.png)
+![alt text](minimum_length.png)
