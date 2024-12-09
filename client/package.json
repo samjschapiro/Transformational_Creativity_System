@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm start",
+    "build": "npm build",
+    "test": "npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

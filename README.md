@@ -3,6 +3,7 @@
 Currently supports symbolic and english formalizations
 
 USAGE: (client not yet integrated)
+
 python3 server/app.py
 
 curl -X POST http://localhost:PORT_NUMBER/formalize \
