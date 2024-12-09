@@ -39,6 +39,13 @@ def formalize_file(file_path, mode):
     print("All claims data:", all_claims_data)
     formalized_data = formalize_claims(all_claims_data, mode)
 
+    # compute Formalizability Index
+    total_segments = len(parsed_data)
+    formalizable_segments = sum(1 for item in parsed_data if item.get("claims"))
+    formalizability_index = (
+        formalizable_segments / total_segments if total_segments > 0 else 0
+    )
+
     # Check contradictions
     contradiction_found = check_contradictions(formalized_data.get("axioms", []))
     base_url = file_path
@@ -59,20 +66,21 @@ def formalize_file(file_path, mode):
     # Generate reconstructions
     logic_text, english_text = generate_reconstructions(final_data["axioms"])
 
-    # Now generate the PDF using the reconstructed texts
+    # Now generate the PDF with the Formalizability Index at the top
     output_id = str(uuid.uuid4())
     pdf_output_path = os.path.join("outputs", f"{output_id}.pdf")
-    generate_output_pdf(logic_text, english_text, pdf_output_path)
+    generate_output_pdf(
+        logic_text,
+        english_text,
+        pdf_output_path,
+        formalizability_index,
+        total_segments,
+        formalizable_segments,
+    )
 
     return {
         "axioms": final_data["axioms"],
         "output_pdf": pdf_output_path,
         "logic_reconstruction": logic_text,
-        "english_reconstruction": english_text
+        "english_reconstruction": english_text,
     }
-
-
-# Example usage:
-# result = formalize_file("path_to_your_file.pdf", "logic")
-# print(result["logic_reconstruction"])
-# print(result["english_reconstruction"])
