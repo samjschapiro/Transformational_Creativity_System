@@ -4,7 +4,10 @@ import uuid
 from components.main import formalize_file  # Updated import
 
 app = Flask(__name__)
-UPLOAD_FOLDER = './uploads'
+
+UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), '..', 'uploads')
+UPLOAD_FOLDER = os.path.abspath(UPLOAD_FOLDER)
+
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 @app.route('/upload', methods=['POST'])
@@ -28,10 +31,13 @@ def formalize():
         if not data or 'fileUrl' not in data or 'formatType' not in data:
             return jsonify({"error": "Invalid input"}), 400
 
-        file_url = data['fileUrl']
+        file_url = os.path.join(UPLOAD_FOLDER, data['fileUrl']) \
+            if not data['fileUrl'].startswith(UPLOAD_FOLDER) else data['fileUrl']
+
         format_type = data['formatType']  # "logic" or "english"
 
         if not os.path.exists(file_url):
+            print(file_url)
             return jsonify({"error": "File not found"}), 404
 
         result = formalize_file(file_url, format_type)

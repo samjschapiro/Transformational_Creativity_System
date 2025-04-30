@@ -49,8 +49,8 @@ def check_contradictions(axioms):
         return False
     combined = " & ".join([f"({stmt})" for stmt in statements])
     try:
-        expr = sympify(combined)
+        expr = sympify(combined) # turns string into symbolic expression
         simplified = simplify_logic(expr)
-        return simplified is False
+        return simplified == False # if false, there is contradiction -> returns true
     except:
         return False
