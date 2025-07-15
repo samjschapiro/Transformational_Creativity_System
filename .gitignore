@@ -3,5 +3,6 @@ server/api_call.py
 all_responses.txt
 outputs
 uploads
+venv/
 server/__pycache__
 
