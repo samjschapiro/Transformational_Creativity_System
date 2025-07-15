@@ -54,6 +54,9 @@ def formalize_file(file_path, mode):
         ax["source"] = f"{base_url}#segment-{seg_idx}"
         ax["flag"] = "contradiction" if contradiction_found else "none"
 
+    if ax["flag"] == "contradiction":
+        print("contradiction found!")
+
     # Save to JSON
     os.makedirs("outputs", exist_ok=True)
     json_output_path = os.path.join("outputs", "final_data.json")
@@ -78,9 +81,16 @@ def formalize_file(file_path, mode):
         formalizable_segments,
     )
 
+    # # --- New: Generate conceptual space and literature mapping ---
+    # conceptual_space = query_llm_for_conceptual_space(final_data["axioms"], pdf_output_path)
+    # # Optionally, save this to a file
+    # with open(os.path.join("outputs", f"{output_id}_conceptual_space.txt"), "w", encoding="utf-8") as f:
+    #     f.write(conceptual_space)
+
     return {
         "axioms": final_data["axioms"],
         "output_pdf": pdf_output_path,
         "logic_reconstruction": logic_text,
         "english_reconstruction": english_text,
+        # "conceptual_space": conceptual_space,  # <-- new
     }

@@ -5,6 +5,7 @@ from components.main import formalize_file  # Updated import
 
 app = Flask(__name__)
 
+# automatically prepend /uploads to file path
 UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), '..', 'uploads')
 UPLOAD_FOLDER = os.path.abspath(UPLOAD_FOLDER)
 
