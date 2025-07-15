@@ -6,9 +6,9 @@ USAGE: (client not yet integrated)
 
 python3 server/app.py
 
-curl -X POST http://127.0.0.1:3000/formalize \
+curl -X POST http://PORT_URL/formalize \
      -H "Content-Type: application/json" \
-     -d '{"fileUrl":"./uploads/'attention.pdf'", "formatType":"logic"}'
+     -d '{"file":'YOUR_PDF', "formatType":"logic/english"}'
 
 
 You will need your own API key for now 😔 
