@@ -1,6 +1,6 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from .entailment_score import compute_entailment
+from entailment_score import compute_entailment
 import textwrap
 import math
 
