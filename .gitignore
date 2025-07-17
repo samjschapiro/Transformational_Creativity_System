@@ -7,4 +7,6 @@ uploads
 .env
 venv/
 server/__pycache__
+client
+
 
