@@ -6,4 +6,4 @@ curl -X POST http://PORT_URL/formalize \
      -H "Content-Type: application/json" \
      -d '{"file":'YOUR_PDF', "formatType":"logic/english"}'
 
-4. Check server/conceptual_space.png for image of conceptual space, and server/ouput for output files, including the .json log and output pdf
+4. Check server/conceptual_space.png for image of conceptual space, and server/output for output files, including the .json log and output .pdf
