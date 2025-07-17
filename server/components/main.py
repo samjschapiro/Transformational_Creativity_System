@@ -58,9 +58,10 @@ def formalize_file(file_path, mode):
     if ax["flag"] == "contradiction":
         print("contradiction found!")
 
-    # Save to JSON
-    os.makedirs("outputs", exist_ok=True)
-    json_output_path = os.path.join("outputs", "final_data.json")
+    # Save to JSON in root-level outputs directory
+    outputs_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'outputs')
+    os.makedirs(outputs_dir, exist_ok=True)
+    json_output_path = os.path.join(outputs_dir, "final_data.json")
     save_to_json(formalized_data, json_output_path)
 
     # Read final data
@@ -72,7 +73,7 @@ def formalize_file(file_path, mode):
 
     # Now generate the PDF with the Formalizability Index at the top
     output_id = str(uuid.uuid4())
-    pdf_output_path = os.path.join("outputs", f"{output_id}.pdf")
+    pdf_output_path = os.path.join(outputs_dir, f"{output_id}.pdf")
     generate_output_pdf(
         logic_text,
         english_text,
@@ -90,5 +91,4 @@ def formalize_file(file_path, mode):
         "output_pdf": pdf_output_path,
         "logic_reconstruction": logic_text,
         "english_reconstruction": english_text,
-        # "conceptual_space": conceptual_space,  # <-- new
     }

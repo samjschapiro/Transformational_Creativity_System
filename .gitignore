@@ -3,8 +3,8 @@ server/api_call.py
 server/conceptual_space.png
 all_responses.txt
 
-outputs/*
-!outputs/.gitkeep
+server/outputs/*
+!server/outputs/.gitkeep
 
 uploads/*
 !uploads/.gitkeep
