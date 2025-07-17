@@ -12,7 +12,7 @@ def get_conceptual_space_from_paper(paper_name: str, english_formalized_claims: 
         - Each node corresponds to a component, assumption, or sub-rule used in the construction of the method.
         - Each edge represents a logical or operational dependency: the target node requires the source node to make sense or function.
         - Walks in the graph must terminate at axioms (self-justifying concepts or primitives).
-        - Rules are composed from axioms and other rules.
+        - Rules depend, in a directed sense, on axioms and other rules, and can potentially depend on multiple other rules and/or axioms
 
         The output should be a JSON object of the form:
         {{

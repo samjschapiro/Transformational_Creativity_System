@@ -1,5 +1,6 @@
 .DS_Store
 server/api_call.py
+server/conceptual_space.png
 all_responses.txt
 outputs
 uploads

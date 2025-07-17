@@ -1,167 +1,29 @@
+import json
+import os
 from conceptual_space import get_conceptual_space
-
 from conceptual_space.visualize_space import visualize_conceptual_space
 
-paper_name="Attention is all you need"
+def run_conceptual_space_visualization(final_data_path="outputs/final_data.json", show=True):
+    # Load English claims and paper name from final_data.json
+    with open(final_data_path, "r") as f:
+        data = json.load(f)
 
-concept = ''' The dominant sequence transduction models are based on complex recurrent or convolutional neura
-- The best performing models connect the encoder and decoder through an attention mechanism.
-- The Transformer is a new simple network architecture.
-- The architecture is based solely on attention mechanisms.
-- The architecture dispenses with recurrence and convolutions entirely.
-- These models are superior in quality.
-- These models are more parallelizable.
-- These models require significantly less time to train.
-- Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task.
-- The model improves over the existing best results by over 2 BLEU.
-- Our model establishes a new single-model state-of-the-art BLEU score of 41.8.
-- The Transformer model generalizes well to other tasks.
-- Equal contribution is a fundamental principle.
-- Listing order is random.
-- Self-attention can replace RNNs.
-- Ashish and Illia contributed significantly to the development of the first Transformer models.
-- The design and implementation of tensor2tensor greatly improved results.
-- Tensor2tensor massively accelerated research.
-- Recurrent neural networks and their variants are state of the art in sequence modeling.
-- Long short-term memory and gated recurrent networks are particularly effective for language modelin
-- Recurrent models factor computation along symbol positions.
-- The inherently sequential nature of the process precludes parallelization within training examples.
-- Recent work has achieved significant improvements in computational efficiency.
-- Factorization tricks and conditional computation contribute to improvements in model performance.
-- The fundamental constraint of sequential computation remains.
-- Attention mechanisms are integral to sequence modeling and transduction models.
-- The Transformer is a model architecture that does not use recurrence.
-- The Transformer enables significantly more parallelization.
-- The Transformer achieves a new state of the art in translation quality.
-- Reducing sequential computation is a foundational goal in certain neural network architectures.
-- The number of operations required to relate signals from two arbitrary input or output positions varies
-- It is more difficult to learn dependencies between distant positions.
-- The Transformer reduces the number of operations to a constant number.
-- Self-attention (intra-attention) relates different positions of a single sequence.
-- Self-attention is effective in various tasks.
-- End-to-end memory networks utilize a recurrent attention mechanism.
-- End-to-end memory networks outperform sequence-aligned recurrence.
-- End-to-end memory networks are effective for simple-language question answering and language mo
-- The Transformer is the first transduction model relying entirely on self-attention.
-- The Transformer model is noteworthy.
-- Self-attention is a significant component of the Transformer.
-- The model functions in an auto-regressive manner.
-- The Transformer architecture utilizes stacked self-attention and fully connected layers.
-- The self-attention sub-layer in the decoder stack is modified.
-- The predictions for position i depend only on the known outputs at positions less than i.
-- An attention function can be described as mapping a query and a set of key-value pairs to an output.
-- core_claim
-- The specific attention mechanism being discussed is called 'Scaled Dot-Product Attention'.
-- Dot-product attention is identical to our algorithm.
-- Dot-product attention is faster and more space-efficient than other forms of attention.
-- Additive attention outperforms dot product attention without scaling for larger values of dk.
-- For large values of dk, the dot products grow large in magnitude.
-- Large dot products push the softmax function into regions with extremely small gradients.
-- It is beneficial to perform multiple attention functions instead of a single attention function.
-- The dot product of vectors q and k is represented by q·k=Pdk i=1qi ki.
-- The dot product has a mean of 0.
-- The dot product has a variance of dk.
-- Multi-head attention allows the model to jointly attend to information from different representation sub
-- Averaging inhibits the effectiveness of a single attention head.
-- The total computational cost is similar to that of single-head attention with full dimensionality.
-- The Transformer model utilizes multi-head attention in multiple ways.
-- Every position in the decoder has the ability to attend over all positions in the input sequence.
-- The encoder contains self-attention layers.
-- In a self-attention layer, keys, values, and queries originate from the same source.
-- Each position in the encoder has the ability to attend to all positions in the previous layer.
-- Leftward information flow in the decoder must be prevented.
-- Preserving the auto-regressive property is essential.
-- Each layer in the encoder and decoder contains a feed-forward network.
-- Linear transformations are consistent across positions.
-- Learned embeddings are used to convert input and output tokens to vectors.
-- A model without recurrence and convolution requires additional information to understand the order o
-- Positional encodings have the same dimension as embeddings.
-- There are multiple types of positional encodings.
-- Each dimension of the positional encoding corresponds to a sinusoid.
-- The wavelengths form a geometric progression.
-- The chosen function enables the model to learn to attend by relative positions.
-- The sinusoidal version is preferable for model training.
-- core
-- The use of self-attention is motivated by certain desiderata.
-- The total computational complexity per layer is a significant concept.
-- The amount of computation that can be parallelized is significant.
-- The path length affects long-range dependencies in the network.
-- Learning long-range dependencies is a key challenge.
-- The length of the paths affects the ability to learn dependencies.
-- Shorter paths between positions in input and output sequences facilitate the learning of long-range d
-- There exists a maximum path length between any two input and output positions in networks compos
-- A self-attention layer connects all positions with a constant number of sequentially executed operatio
-- A recurrent layer requires O(n) sequential operations.
-- Self-attention layers are faster than recurrent layers in computational complexity when the sequence
-- Restricting self-attention can enhance computational performance.
-- Increasing the maximum path length affects computational performance.
-- A single convolutional layer with kernel width k < n does not connect all pairs of input and output pos
-- core_claim
-- Convolutional layers are generally more expensive than recurrent layers.
-- Separable convolutions decrease the complexity considerably.
-- The complexity of a separable convolution is equal to the combination of a self-attention layer and a p
-- Self-attention could yield more interpretable models.
-- Individual attention heads learn to perform different tasks.
-- Attention heads exhibit behavior related to the syntactic and semantic structure of sentences.
-- The Transformer achieves better BLEU scores than previous state-of-the-art models.
-- Increased uncertainty in a model can lead to improved accuracy.
-- The big transformer model outperforms the best previously reported models on the WMT 2014 Englis
-- A new state-of-the-art BLEU score of 28.4 has been established.
-- Our base model surpasses all previously published models and ensembles.
-- The big model achieves a BLEU score of 41.0.
-- The model outperforms all previously published single models.
-- The model does so at less than 1/4 of the training cost of the previous state-of-the-art model.
-- The number of floating point operations can be estimated based on training time, the number of GPU
-- The performance of the Transformer model can vary based on different components.
-- Unlisted values are identical to those of the base model.
-- Perplexities are defined on a per-wordpiece basis.
-- Single-head attention is less effective than the best setting by 0.9 BLEU.
-- Reducing the attention key size dkhurts model quality.
-- Determining compatibility is not easy.
-- A more sophisticated compatibility function than dot product may be beneficial.
-- Bigger models are better.
-- Dropout is helpful in avoiding over-fitting.
-- The Transformer can generalize to other tasks.
-- The task presents specific challenges.
-- The output is subject to strong structural constraints.
-- The output is significantly longer than the input.
-- RNN sequence-to-sequence models have limitations.
-- Our model performs surprisingly well despite the lack of task-specific tuning.
-- Our model yields better results than all previously reported models, except for the Recurrent Neural N
-- The Transformer outperforms the Berkeley-Parser.
-- The Transformer is the first sequence transduction model based entirely on attention.
-- The Transformer model is superior for translation tasks in terms of training speed.
-- Achieving a new state of the art in translation tasks.
-- Our best model outperforms all previously reported ensembles.
-- Attention-based models have a promising future.
-- The Transformer can be extended to other input and output modalities beyond text.
-- Making generation less sequential is a research goal.
-- Neural machine translation can be enhanced through joint learning of alignment and translation.
-- Recurrent neural networks can generate sequences.
-- Gradient flow in recurrent nets presents challenges.
-- Learning long-term dependencies is difficult.
-- Self-training PCFG grammars can be effectively utilized across languages.
-- Latent annotations enhance the capability of PCFG grammars.
-- There are limits to language modeling.
-- Active memory can potentially replace attention.
-- Neural GPUs learn algorithms.
-- Neural machine translation can be achieved in linear time.
-- A method for stochastic optimization
-- The notion of a structured self-attentive sentence embedding suggests a complexity inherent in langu
-- Attention-based neural machine translation is an effective approach.
-- Effective self-training is essential for parsing.
-- Attention models can be decomposed.
-- A deep reinforced model is effective for abstractive summarization.
-- Learning accurate, compact, and interpretable tree annotation is essential.
-- Using the output embedding can enhance the performance of language models.
-- Dropout is a method used to prevent overfitting in neural networks.
-- Grammar can be learned in the same way as a foreign language.'''
+    # Extract all English claims
+    english_claims = [axiom["english"] for axiom in data["axioms"] if "english" in axiom]
 
-result = get_conceptual_space(concept, input_type="paper") # concept or paper
-concepts = result['conceptual_space']
-model = result['entailment_model']
-tokenizer = result['entailment_tokenizer']
+    # Join claims into a single string
+    claims_str = "\n".join(english_claims)
 
-visualize_conceptual_space(concepts, show=True, entailment_model=model, entailment_tokenizer=tokenizer)  # show the graph
-# or
-visualize_conceptual_space(concepts, show=False, save_path="conceptual_space.png", entailment_model=model, entailment_tokenizer=tokenizer)  # save to file
+    # Extract paper name from the first axiom's source field
+    first_source = data["axioms"][0]["source"]
+    paper_name = os.path.basename(first_source.split("#")[0]) if "source" in data["axioms"][0] else "None"
+
+    result = get_conceptual_space(claims_str, input_type="paper", paper_name=paper_name)
+    concepts = result['conceptual_space']
+    model = result['entailment_model']
+    tokenizer = result['entailment_tokenizer']
+
+    visualize_conceptual_space(concepts, show=False, save_path="conceptual_space.png", entailment_model=model, entailment_tokenizer=tokenizer)
+
+if __name__ == "__main__":
+    run_conceptual_space_visualization()

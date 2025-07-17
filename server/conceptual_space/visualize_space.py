@@ -4,7 +4,11 @@ from .entailment_score import compute_entailment
 import textwrap
 import math
 
-def visualize_conceptual_space(conceptual_space, save_path=None, entailment_model=None, entailment_tokenizer=None, show=True, min_dist=20):
+import matplotlib
+matplotlib.use('Agg')  # Use a non-GUI backend
+
+# need show=false here becasue matplotlib gui can't display off a background process
+def visualize_conceptual_space(conceptual_space, save_path=None, entailment_model=None, entailment_tokenizer=None, show=False, min_dist=20):
     """
     Visualize a conceptual space (DAG) as a static matplotlib graph.
     Nodes are spaced at least min_dist apart, all info is shown in the node, and edges show relation and entailment score.

@@ -7,6 +7,7 @@ from components.response_parsing import extract_claims
 from components.logic_formalization import formalize_claims, check_contradictions
 from components.pdf_generation import generate_output_pdf
 from components.reconstruction import generate_reconstructions
+from test_conceptual_space import run_conceptual_space_visualization
 
 def save_to_json(data, filename="output_data.json"):
     with open(filename, "w", encoding="utf-8") as f:
@@ -81,11 +82,8 @@ def formalize_file(file_path, mode):
         formalizable_segments,
     )
 
-    # # --- New: Generate conceptual space and literature mapping ---
-    # conceptual_space = query_llm_for_conceptual_space(final_data["axioms"], pdf_output_path)
-    # # Optionally, save this to a file
-    # with open(os.path.join("outputs", f"{output_id}_conceptual_space.txt"), "w", encoding="utf-8") as f:
-    #     f.write(conceptual_space)
+    # --- New: Visualize conceptual space ---
+    run_conceptual_space_visualization(json_output_path, show=True)
 
     return {
         "axioms": final_data["axioms"],
