@@ -2,8 +2,13 @@
 server/api_call.py
 server/conceptual_space.png
 all_responses.txt
-outputs
-uploads
+
+outputs/*
+!outputs/.gitkeep
+
+uploads/*
+!uploads/.gitkeep
+
 .env
 venv/
 server/__pycache__
