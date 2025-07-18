@@ -3,7 +3,7 @@ import json
 import re
 import networkx as nx
 import matplotlib.pyplot as plt
-from entailment_score import compute_entailment
+from src.paper_formalization import compute_entailment
 import textwrap
 import math
 from transformers import AutoTokenizer, AutoModelForSequenceClassification

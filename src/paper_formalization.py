@@ -10,11 +10,15 @@ import torch
 import torch.nn.functional as F
 import os
 import nltk
-from nltk import sent_tokenize
+nltk.download('punkt_tab')
+from nltk import sent_tokenize 
+    # ensure NLTK is set up: python -m nltk.downloader punkt
 import PyPDF2
 from ebooklib import epub
 from bs4 import BeautifulSoup
 from src.pdf_generation import generate_output_pdf
+import requests
+from urllib.parse import urlparse
 
 tokenizer = AutoTokenizer.from_pretrained("roberta-large-mnli")
 model = AutoModelForSequenceClassification.from_pretrained("roberta-large-mnli")
@@ -34,37 +38,30 @@ model = AutoModelForSequenceClassification.from_pretrained("roberta-large-mnli")
 #       12. extract_claims(segments, output_file="all_responses.txt")
 #       13. generate_reconstructions(axioms)
 
-def extract_text_from_pdf(pdf_path):
-    text = ""
-    with open(pdf_path, 'rb') as f:
-        reader = PyPDF2.PdfReader(f)
-        for page in reader.pages:
-            text += page.extract_text() + "\n"
-    return text.strip()
 
-def extract_text_from_epub(epub_path):
-    book = epub.read_epub(epub_path)
-    text_content = []
-    for item in book.get_items():
-        if item.get_type() == epub.ITEM_DOCUMENT:
-            soup = BeautifulSoup(item.get_content(), 'html.parser')
-            text_content.append(soup.get_text(separator=' ').strip())
-    return "\n".join(text_content).strip()
+def formalize_file(file_url, mode='english'):
+    # Determine if input is a URL or local file path
+    parsed = urlparse(file_url)
+    is_url = parsed.scheme in ("http", "https")
 
-def segment_text(text):
-    # ensure NLTK is set up: python -m nltk.downloader punkt
-    sentences = sent_tokenize(text)
-    return list(enumerate(sentences))
+    if is_url:
+        # Download the file to a temporary location
+        ext = os.path.splitext(parsed.path)[1].lower()
+        tmp_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'tmp_downloads')
+        os.makedirs(tmp_dir, exist_ok=True)
+        tmp_path = os.path.join(tmp_dir, f"downloaded{ext}")
+        with requests.get(file_url, stream=True) as r:
+            r.raise_for_status()
+            with open(tmp_path, "wb") as f:
+                for chunk in r.iter_content(chunk_size=8192):
+                    f.write(chunk)
+        file_path = tmp_path
+    else:
+        file_path = file_url
+        ext = os.path.splitext(file_path)[1].lower()
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f"File not found: {file_path}")
 
-def save_to_json(data, filename="output_data.json"):
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-
-def formalize_file(file_path, mode):
-    if not os.path.exists(file_path):
-        raise FileNotFoundError(f"File not found: {file_path}")
-
-    ext = os.path.splitext(file_path)[1].lower()
     if ext == ".pdf":
         text = extract_text_from_pdf(file_path)
     elif ext == ".epub":
@@ -96,7 +93,7 @@ def formalize_file(file_path, mode):
 
     # Check contradictions
     contradiction_found = check_contradictions(formalized_data.get("axioms", []))
-    base_url = file_path
+    base_url = file_url
     for ax in formalized_data.get("axioms", []):
         seg_idx = ax["segment_index"]
         ax["source"] = f"{base_url}#segment-{seg_idx}"
@@ -121,14 +118,7 @@ def formalize_file(file_path, mode):
     # Now generate the PDF with the Formalizability Index at the top
     output_id = str(uuid.uuid4())
     pdf_output_path = os.path.join(outputs_dir, f"{output_id}.pdf")
-    generate_output_pdf(
-        logic_text,
-        english_text,
-        pdf_output_path,
-        formalizability_index,
-        total_segments,
-        formalizable_segments,
-    )
+    generate_output_pdf(logic_text, english_text, pdf_output_path, formalizability_index, total_segments, formalizable_segments)
 
     return {
         "axioms": final_data["axioms"],
@@ -343,3 +333,28 @@ def generate_reconstructions(axioms):
     english_text = "\n".join([line for line in english_lines if line.strip()])
 
     return logic_text.strip(), english_text.strip()
+
+def extract_text_from_pdf(pdf_path):
+    text = ""
+    with open(pdf_path, 'rb') as f:
+        reader = PyPDF2.PdfReader(f)
+        for page in reader.pages:
+            text += page.extract_text() + "\n"
+    return text.strip()
+
+def extract_text_from_epub(epub_path):
+    book = epub.read_epub(epub_path)
+    text_content = []
+    for item in book.get_items():
+        if item.get_type() == epub.ITEM_DOCUMENT:
+            soup = BeautifulSoup(item.get_content(), 'html.parser')
+            text_content.append(soup.get_text(separator=' ').strip())
+    return "\n".join(text_content).strip()
+
+def segment_text(text):
+    sentences = sent_tokenize(text)
+    return list(enumerate(sentences))
+
+def save_to_json(data, filename="output_data.json"):
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
