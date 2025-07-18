@@ -33,7 +33,6 @@ model = AutoModelForSequenceClassification.from_pretrained("roberta-large-mnli")
 #       7. check_contradictions(axioms)
 #       8. compute_entailment(premise, hypothesis, tokenizer_=None, model_=None)
 #       9. extract_json_from_response(response_content)
-#       10. append_response_to_file(response_content, filename)
 #       11. parse_combined_responses(filename="all_responses.txt")
 #       12. extract_claims(segments, output_file="all_responses.txt")
 #       13. generate_reconstructions(axioms)
@@ -208,10 +207,6 @@ def extract_json_from_response(response_content):
         print(f"Skipping JSON decoding error: {e}")
         return None
 
-def append_response_to_file(response_content, filename):
-    with open(filename, "a", encoding="utf-8") as f:
-        f.write(response_content.strip() + "\n---END-OF-SEGMENT---\n")
-
 def parse_combined_responses(filename="all_responses.txt"):
     if not os.path.exists(filename):
         print(f"No combined response file found: {filename}")
@@ -258,9 +253,13 @@ def parse_combined_responses(filename="all_responses.txt"):
 
     return parsed_data
 
-def extract_claims(segments, output_file="all_responses.txt"):
-    if os.path.exists(output_file):
-        os.remove(output_file)
+def extract_claims(segments, output_file=None):
+    """
+    Extract claims and related information from text segments.
+    Instead of writing to a file, collect results in a list and return directly.
+    If output_file is provided, optionally save the results as JSON.
+    """
+    results = []
 
     for seg_idx, sentence in segments:
         prompt = f"""
@@ -279,18 +278,31 @@ def extract_claims(segments, output_file="all_responses.txt"):
         """
         response = generate_response(prompt)
         if not response or not hasattr(response, "content"):
-            append_response_to_file(json.dumps({
+            result = {
                 "segment_index": seg_idx,
                 "claims": [],
                 "arguments": [],
                 "examples": [],
                 "decorative": []
-            }), filename=output_file)
-            continue
+            }
+        else:
+            parsed = extract_json_from_response(response.content)
+            if parsed is None:
+                result = {
+                    "segment_index": seg_idx,
+                    "claims": [],
+                    "arguments": [],
+                    "examples": [],
+                    "decorative": []
+                }
+            else:
+                result = parsed
+        results.append(result)
 
-        append_response_to_file(response.content, filename=output_file)
+    if output_file:
+        save_to_json(results, filename=output_file)
 
-    return parse_combined_responses(filename=output_file)
+    return results
 
 def generate_reconstructions(axioms):
     # Sort axioms by segment_index
