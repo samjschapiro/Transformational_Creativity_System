@@ -1,4 +1,4 @@
-from api_call import generate_response
+from src.api_call import generate_response
 import json
 import re
 import networkx as nx
@@ -13,6 +13,11 @@ import torch.nn.functional as F
 _tokenizer = AutoTokenizer.from_pretrained("roberta-large-mnli")
 _model = AutoModelForSequenceClassification.from_pretrained("roberta-large-mnli")
 
+# has three functions
+#       1. get_conceptual_space(input_str, input_type='paper', model=None, paper_name=None)
+#       2. get_conceptual_space_from_paper(paper_name: str, english_formalized_claims: str, model=None) -> dict
+#       3. visualize_conceptual_space(conceptual_space, save_path=None, entailment_model=None, entailment_tokenizer=None, show=True, min_dist=20)
+
 def get_conceptual_space(input_str, input_type='paper', model=None, paper_name=None):
     if input_type == 'paper':
         if paper_name is None:
@@ -21,6 +26,7 @@ def get_conceptual_space(input_str, input_type='paper', model=None, paper_name=N
             concepts = get_conceptual_space_from_paper(paper_name, input_str, model=model)
     else:
         raise ValueError("input_type must be either 'concept' or 'paper'")
+    
     return {
         'conceptual_space': concepts,
         'compute_entailment': compute_entailment,

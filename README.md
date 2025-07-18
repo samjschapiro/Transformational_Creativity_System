@@ -2,7 +2,7 @@
 
 This repository contains the codebase for the paper **"Towards AI Super-Scientists: Transformationally Creative Idea Generation via Graph-Enabled LLM Search"**. It provides implementations and resources for leveraging graph-based search techniques with large language models (LLMs) to facilitate transformational creativity in scientific idea generation.
 
-![](einstein_kant_transforming.png)
+![](media/einstein_kant_transforming.png)
 
 ## Repository Structure
 

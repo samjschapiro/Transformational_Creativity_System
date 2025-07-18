@@ -1,7 +1,7 @@
 import json
 import re
 from sympy.logic.boolalg import sympify, simplify_logic
-from api_call import generate_response
+from src.api_call import generate_response
 import os
 import json
 import uuid
@@ -14,10 +14,25 @@ from nltk import sent_tokenize
 import PyPDF2
 from ebooklib import epub
 from bs4 import BeautifulSoup
-from pdf_generation import generate_output_pdf
+from src.pdf_generation import generate_output_pdf
 
 tokenizer = AutoTokenizer.from_pretrained("roberta-large-mnli")
 model = AutoModelForSequenceClassification.from_pretrained("roberta-large-mnli")
+
+# has 13 functions
+#       1. extract_text_from_pdf(pdf_path)
+#       2. extract_text_from_epub(epub_path)
+#       3. segment_text(text)
+#       4. save_to_json(data, filename="output_data.json")
+#       5. formalize_file(file_path, mode)
+#       6. formalize_claims(all_claims_data, mode)
+#       7. check_contradictions(axioms)
+#       8. compute_entailment(premise, hypothesis, tokenizer_=None, model_=None)
+#       9. extract_json_from_response(response_content)
+#       10. append_response_to_file(response_content, filename)
+#       11. parse_combined_responses(filename="all_responses.txt")
+#       12. extract_claims(segments, output_file="all_responses.txt")
+#       13. generate_reconstructions(axioms)
 
 def extract_text_from_pdf(pdf_path):
     text = ""

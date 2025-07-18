@@ -4,9 +4,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import LETTER
 from reportlab.lib.units import inch
 
-def generate_output_pdf(
-    logic_text, english_text, output_path, formalizability_index, total_segments, formalizable_segments
-):
+def generate_output_pdf(logic_text, english_text, output_path, formalizability_index, total_segments, formalizable_segments):
     c = canvas.Canvas(output_path, pagesize=LETTER)
     width, height = LETTER
 
