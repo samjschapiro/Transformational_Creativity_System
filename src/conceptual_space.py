@@ -13,11 +13,6 @@ import torch.nn.functional as F
 _tokenizer = AutoTokenizer.from_pretrained("roberta-large-mnli")
 _model = AutoModelForSequenceClassification.from_pretrained("roberta-large-mnli")
 
-# has three functions
-#       1. get_conceptual_space(input_str, input_type='paper', model=None, paper_name=None)
-#       2. get_conceptual_space_from_paper(paper_name: str, english_formalized_claims: str, model=None) -> dict
-#       3. visualize_conceptual_space(conceptual_space, save_path=None, entailment_model=None, entailment_tokenizer=None, show=True, min_dist=20)
-
 def get_conceptual_space(input_str, input_type='paper', model=None, paper_name=None):
     if input_type == 'paper':
         if paper_name is None:
@@ -33,6 +28,69 @@ def get_conceptual_space(input_str, input_type='paper', model=None, paper_name=N
         'entailment_tokenizer': _tokenizer,
         'entailment_model': _model
     }
+
+def get_conceptual_space_from_paper_tr(paper_name: str, english_formalized_claims: str, model=None) -> dict:
+    """Return a JSON‑serialisable DAG whose nodes are well‑formed propositions.
+
+    Node types
+    ----------
+    * "transcendental" – primitive, self‑justifying or constitutive propositions (no outgoing edges).
+    * "derived"        – propositions logically supported by other propositions.
+
+    Edge relation
+    -------------
+    Each edge is a dict of the form {"source": s, "target": t, "relation": "supports"},
+    meaning proposition *s* supports or enables proposition *t*.
+
+    The graph must be acyclic and every walk must terminate at a transcendental node.
+    """
+
+    prompt = f"""
+        You are a world‑class conceptual‑space engineer.
+
+        Given the formal claims extracted from an academic paper, deconstruct and represent its fully fleshed‑out conceptual space as a JSON‑FORMATTED directed acyclic graph (DAG).
+
+        Instructions
+        ------------
+        1. Each node MUST be a single, well‑formed proposition expressed in English.
+        2. Label each node with **exactly one** of the following types:
+        • "transcendental" – primitive / constitutive proposition that relies on no other proposition.
+        • "derived" – proposition that is supported by one or more other propositions.
+        3. Use the edge schema {{"source": "n_i", "target": "n_j", "relation": "supports"}} where the SOURCE proposition supports the TARGET proposition.
+        4. Ensure the graph is **acyclic**. Walks must terminate at transcendental nodes.
+        5. Do **not** include markdown fences, code blocks, or keys beyond those specified.
+        6. Be precise and rigorous; no filler or speculative statements.
+
+        Return **only** a JSON object of the form:
+        {{
+        "nodes": [
+            {{"id": "n1", "label": "Concise name", "description": "Proposition text", "type": "transcendental|derived"}},
+            ...
+        ],
+        "edges": [
+            {{"source": "n1", "target": "n2", "relation": "supports"}},
+            ...
+        ]
+        }}
+
+        INPUT (paper name and extracted claims):
+        {paper_name}
+        ---
+        {english_formalized_claims}
+        """
+
+    response = generate_response(prompt, model=model)
+    content = getattr(response, 'content', str(response)).strip()
+
+    # Remove optional markdown fences that some models include
+    content = re.sub(r"^```[a-zA-Z0-9]*|```$", "", content, flags=re.MULTILINE).strip()
+
+    try:
+        return json.loads(content)
+    except Exception as e:
+        print("Error parsing JSON:", e)
+        print("Raw output:", content)
+        return {}
 
 
 def get_conceptual_space_from_paper(paper_name: str, english_formalized_claims: str, model=None) -> dict:
