@@ -1,14 +1,11 @@
-![alt text](minimum_length.png)
+# Transformational Creativity System
 
-Currently supports symbolic and english formalizations
+This repository contains the codebase for the paper **"Towards AI Super-Scientists: Transformationally Creative Idea Generation via Graph-Enabled LLM Search"**. It provides implementations and resources for leveraging graph-based search techniques with large language models (LLMs) to facilitate transformational creativity in scientific idea generation.
 
-USAGE: (client not yet integrated)
+![](media/einstein_kant_transforming.png)
 
-python3 server/app.py
+## Repository Structure
 
-curl -X POST http://PORT_URL/formalize \
-     -H "Content-Type: application/json" \
-     -d '{"file":'YOUR_PDF', "formatType":"logic/english"}'
+- `src/` — Core source code implementing graph-enabled LLM search and idea generation algorithms.
 
-
-You will need your own API key for now 😔 
+Refer to the documentation in the `docs/` folder for setup instructions and detailed usage.

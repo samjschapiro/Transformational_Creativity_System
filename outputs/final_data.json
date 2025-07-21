@@ -1,0 +1,1341 @@
+{
+  "axioms": [
+    {
+      "segment_index": 0,
+      "english": "Sharpness-aware minimization (SAM) is a promising method to improve generalization.",
+      "formal": "SAM is a promising method to enhance generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-0",
+      "flag": "none"
+    },
+    {
+      "segment_index": 1,
+      "english": "The original proposal of SAM by Foret et al. signifies a foundational shift.",
+      "formal": "Foret et al.'s proposal of SAM marks a fundamental change.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-1",
+      "flag": "none"
+    },
+    {
+      "segment_index": 4,
+      "english": "We study SAM for out-of-distribution (OOD) generalization.",
+      "formal": "SAM is studied for OOD generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-4",
+      "flag": "none"
+    },
+    {
+      "segment_index": 5,
+      "english": "The original SAM outperforms the Adam baseline by 4.76% in zero-shot out-of-distribution (OOD) generalization.",
+      "formal": "Original SAM surpasses Adam by 4.76% in zero-shot OOD generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-5",
+      "flag": "none"
+    },
+    {
+      "segment_index": 6,
+      "english": "An OOD (out-of-distribution) generalization bound can be provided in terms of sharpness for a particular setting.",
+      "formal": "OOD generalization can be bounded by sharpness in a specific context.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-6",
+      "flag": "none"
+    },
+    {
+      "segment_index": 7,
+      "english": "Gradual domain adaptation (GDA) is a form of out-of-distribution (OOD) generalization that utilizes intermediate domains between the source and target domains.",
+      "formal": "GDA is OOD generalization using intermediate domains between source and target domains.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-7",
+      "flag": "none"
+    },
+    {
+      "segment_index": 8,
+      "english": "The original SAM outperforms the baseline of Adam on each of the experimental datasets by 0.82% on average.",
+      "formal": "Original SAM exceeds Adam by 0.82% on average across datasets.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-8",
+      "flag": "none"
+    },
+    {
+      "segment_index": 8,
+      "english": "The strongest SAM variants outperform Adam by 1.52% on average.",
+      "formal": "Top SAM variants outperform Adam by 1.52% on average.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-8",
+      "flag": "none"
+    },
+    {
+      "segment_index": 9,
+      "english": "A generalization bound for SAM is provided in the GDA setting.",
+      "formal": "SAM has a generalization bound in GDA settings.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-9",
+      "flag": "none"
+    },
+    {
+      "segment_index": 10,
+      "english": "Asymptotically, this generalization bound is no better than the one for self-training in the literature of GDA.",
+      "formal": "This asymptotic generalization bound matches self-training in GDA literature.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-10",
+      "flag": "none"
+    },
+    {
+      "segment_index": 11,
+      "english": "There is a disconnection between the theoretical justification for SAM and its empirical performance.",
+      "formal": "Theoretical SAM justification and empirical performance are disconnected.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-11",
+      "flag": "none"
+    },
+    {
+      "segment_index": 12,
+      "english": "Low sharpness alone does not account for all of SAM\u2019s generalization benefits.",
+      "formal": "SAM's generalization benefits aren't solely due to low sharpness.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-12",
+      "flag": "none"
+    },
+    {
+      "segment_index": 13,
+      "english": "There are potential avenues for obtaining a tighter analysis for Stochastic Approximation Methods (SAM) in the Out-of-Distribution (OOD) setting.",
+      "formal": "Potential exists for tighter SAM analysis in OOD context.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-13",
+      "flag": "none"
+    },
+    {
+      "segment_index": 14,
+      "english": "Theoretical results provide a solid starting point for analyzing SAM in OOD settings.",
+      "formal": "Theoretical results are a basis for analyzing SAM in OOD.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-14",
+      "flag": "none"
+    },
+    {
+      "segment_index": 14,
+      "english": "SAM can be applied to OOD settings to significantly improve accuracy.",
+      "formal": "SAM can enhance accuracy in OOD settings.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-14",
+      "flag": "none"
+    },
+    {
+      "segment_index": 14,
+      "english": "Newer variants of SAM can be leveraged for further improvements in accuracy.",
+      "formal": "New SAM variants can further boost accuracy.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-14",
+      "flag": "none"
+    },
+    {
+      "segment_index": 15,
+      "english": "Sharpness-Aware Minimization (SAM) is a promising new optimization algorithm.",
+      "formal": "SAM is an innovative optimization algorithm.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-15",
+      "flag": "none"
+    },
+    {
+      "segment_index": 16,
+      "english": "A robust optimization procedure can lead to significant performance gains in the i.i.d.",
+      "formal": "Robust optimization can yield significant i.i.d. performance gains.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-16",
+      "flag": "none"
+    },
+    {
+      "segment_index": 18,
+      "english": "SAM remains understudied in the out-of-distribution (OOD) generalization setting.",
+      "formal": "SAM is still understudied in OOD generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-18",
+      "flag": "none"
+    },
+    {
+      "segment_index": 19,
+      "english": "A number of SAM variants have been proposed to improve the accuracy and efficiency of the original SAM algorithm.",
+      "formal": "Several SAM variants aim to boost accuracy and efficiency.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-19",
+      "flag": "none"
+    },
+    {
+      "segment_index": 22,
+      "english": "The potential to enhance OOD (out-of-distribution) generalization exists.",
+      "formal": "Enhancing OOD generalization potential is present.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-22",
+      "flag": "none"
+    },
+    {
+      "segment_index": 24,
+      "english": "There are eight SAM variants, including the original SAM.",
+      "formal": "Eight SAM variants exist, original SAM included.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-24",
+      "flag": "none"
+    },
+    {
+      "segment_index": 27,
+      "english": "SAM can be used to improve zero-shot OOD generalization.",
+      "formal": "SAM improves zero-shot OOD generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-27",
+      "flag": "none"
+    },
+    {
+      "segment_index": 27,
+      "english": "The strongest SAM variants can be used for an even further improvement.",
+      "formal": "Top SAM variants achieve further improvements.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-27",
+      "flag": "none"
+    },
+    {
+      "segment_index": 29,
+      "english": "A theoretical analysis of SAM under the distribution shift setting provides performance gains.",
+      "formal": "Theoretical SAM analysis during distribution shift yields gains.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-29",
+      "flag": "none"
+    },
+    {
+      "segment_index": 31,
+      "english": "We extend the setting to gradual domain adaptation.",
+      "formal": "The setting is extended to gradual domain adaptation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-31",
+      "flag": "none"
+    },
+    {
+      "segment_index": 32,
+      "english": "SAM outperforms the Adam baseline by 0.82% on average.",
+      "formal": "SAM surpasses Adam by 0.82% on average.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-32",
+      "flag": "none"
+    },
+    {
+      "segment_index": 32,
+      "english": "The strongest SAM variants achieve an even greater 1.52% average improvement over Adam.",
+      "formal": "Top SAM variants exceed Adam by 1.52% on average.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-32",
+      "flag": "none"
+    },
+    {
+      "segment_index": 32,
+      "english": "SAM and the strongest SAM variants can be used for consistent performance gains in GDA.",
+      "formal": "Use SAM and top variants for consistent GDA gains.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-32",
+      "flag": "none"
+    },
+    {
+      "segment_index": 36,
+      "english": "Our work is asymptotically the same as prior work in the GDA literature (Wang et al., 2022).",
+      "formal": "Our work matches prior GDA literature asymptotically.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-36",
+      "flag": "none"
+    },
+    {
+      "segment_index": 42,
+      "english": "We further define the sharpness of \u03b8 and the corresponding \u03c1-robust empirical loss.",
+      "formal": "Sharpness of \u03b8 and \u03c1-robust empirical loss are defined.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-42",
+      "flag": "none"
+    },
+    {
+      "segment_index": 44,
+      "english": "The \u03c1-robust risk of parameters \u03b8 \u2208 \u0398 is the maximum loss obtained by perturbing \u03b8 in the worst possible direction with \u21132-norm bounded by \u03c1.",
+      "formal": "\u03c1-robust risk is max loss from perturbing \u03b8 with \u21132-norm \u2264 \u03c1.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-44",
+      "flag": "none"
+    },
+    {
+      "segment_index": 45,
+      "english": "The \u03c1-sharpness of parameters \u03b8 measures how much the loss increases when we perturb them in the worst possible direction with \u21132-norm bounded by \u03c1.",
+      "formal": "\u03c1-sharpness is loss increase from worst perturbation of \u03b8 with \u21132-norm \u2264 \u03c1.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-45",
+      "flag": "none"
+    },
+    {
+      "segment_index": 46,
+      "english": "Sharpness-aware minimization (SAM) proposes minimizing the \u03c1-robust empirical loss rather than the standard loss.",
+      "formal": "SAM minimizes \u03c1-robust empirical loss instead of standard loss.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-46",
+      "flag": "none"
+    },
+    {
+      "segment_index": 47,
+      "english": "SAM\u2019s objective is to find a minimizer \u03b8\u22c6 of the form: \u03b8\u22c6=argmin\u03b8\u2208\u0398 max \u03b2:\u2225\u03b2\u22252\u2264\u03c1 E(\u03b8+\u03b2).",
+      "formal": "SAM aims to find \u03b8\u22c6 = argmin\u03b8\u2208\u0398 max \u03b2:\u2225\u03b2\u22252\u2264\u03c1 E(\u03b8+\u03b2).",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-47",
+      "flag": "none"
+    },
+    {
+      "segment_index": 49,
+      "english": "The SAM gradient drops a second-order term arising from the chain rule.",
+      "formal": "SAM gradient omits a chain rule second-order term.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-49",
+      "flag": "none"
+    },
+    {
+      "segment_index": 51,
+      "english": "Our results can be extended to any \u2113p-norm.",
+      "formal": "Results extend to any \u2113p-norm.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-51",
+      "flag": "none"
+    },
+    {
+      "segment_index": 53,
+      "english": "This should not be confused with m-sharpness from Foret et al.",
+      "formal": "Do not confuse with Foret et al.'s m-sharpness.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-53",
+      "flag": "none"
+    },
+    {
+      "segment_index": 55,
+      "english": "SAM (Sharpness-Aware Minimization) is a method for optimizing model parameters.",
+      "formal": "SAM optimizes model parameters.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-55",
+      "flag": "none"
+    },
+    {
+      "segment_index": 55,
+      "english": "SAM uses variant-specific oracles for gradient computation, perturbation, and descent steps.",
+      "formal": "SAM employs specific oracles for gradient, perturbation, and descent.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-55",
+      "flag": "none"
+    },
+    {
+      "segment_index": 57,
+      "english": "Adaptive SAM (ASAM) is a version of SAM that uses a scale-invariant version of the first-order approximation.",
+      "formal": "ASAM is a SAM variant using scale-invariant first-order approximation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-57",
+      "flag": "none"
+    },
+    {
+      "segment_index": 59,
+      "english": "Adaptive SAM has one hyperparameter \u03c1.",
+      "formal": "ASAM includes one hyperparameter \u03c1.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-59",
+      "flag": "none"
+    },
+    {
+      "segment_index": 60,
+      "english": "FisherSAM is a special case of ASAM with a specific normalization operator.",
+      "formal": "FisherSAM is an ASAM variant with a distinct normalization operator.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-60",
+      "flag": "none"
+    },
+    {
+      "segment_index": 62,
+      "english": "K-SAM is a variant of SAM that only uses the top K data samples with the highest loss for gradient evaluations.",
+      "formal": "K-SAM uses top K loss samples for gradient calculations.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-62",
+      "flag": "none"
+    },
+    {
+      "segment_index": 65,
+      "english": "The idea behind Equation (12) is to remove the component of the descent gradient \u2207\u03b8E(\u03b8)|\u03b8+\u03b2\u22c6lying along the ascent gradient \u2207\u03b8E(\u03b8).",
+      "formal": "Equation (12) eliminates descent gradient component paralleling the ascent gradient.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-65",
+      "flag": "none"
+    },
+    {
+      "segment_index": 67,
+      "english": "Using only the full-batch direction of the ascent-step gradient impairs performance.",
+      "formal": "Reliance on full-batch ascent-step gradient direction hurts performance.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-67",
+      "flag": "none"
+    },
+    {
+      "segment_index": 69,
+      "english": "Computing the full-batch gradient \u2207\u03b8E(\u03b8) is computationally prohibitive.",
+      "formal": "Full-batch gradient calculation is computationally demanding.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-69",
+      "flag": "none"
+    },
+    {
+      "segment_index": 70,
+      "english": "FriendlySAM uses a specific perturbation method defined by an equation.",
+      "formal": "FriendlySAM employs equation-defined perturbation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-70",
+      "flag": "none"
+    },
+    {
+      "segment_index": 72,
+      "english": "NoSAM is a variant of SAM that only performs the SAM perturbation on normalization layers.",
+      "formal": "NoSAM applies SAM perturbation solely on normalization layers.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-72",
+      "flag": "none"
+    },
+    {
+      "segment_index": 74,
+      "english": "The computational cost is compared across three specific metrics.",
+      "formal": "Cost is compared using three distinct metrics.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-74",
+      "flag": "none"
+    },
+    {
+      "segment_index": 77,
+      "english": "EfficientSAM (ESAM) is a variant of SAM intended to make SAM more efficient.",
+      "formal": "ESAM is a SAM variant for enhanced efficiency.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-77",
+      "flag": "none"
+    },
+    {
+      "segment_index": 78,
+      "english": "Stochastic weight perturbation is applied by performing the SAM perturbation on a fraction of the weights.",
+      "formal": "SAM perturbation involves stochastic weight alteration.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-78",
+      "flag": "none"
+    },
+    {
+      "segment_index": 79,
+      "english": "Sharpness-sensitive data selection is performed by only computing gradients over data samples with the highest increase in loss after applying the perturbation.",
+      "formal": "Select sharpness-sensitive data by targeting highest loss increasing samples.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-79",
+      "flag": "none"
+    },
+    {
+      "segment_index": 83,
+      "english": "A model \u03b8S is trained on a source domain S\u2208\u2206(X\u00d7Y ) with a training set.",
+      "formal": "Train model \u03b8S on source domain S with training set.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-83",
+      "flag": "none"
+    },
+    {
+      "segment_index": 86,
+      "english": "The zero-shot OOD generalization error is given by ET(\u03b8S).",
+      "formal": "Zero-shot OOD error is ET(\u03b8S).",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-86",
+      "flag": "none"
+    },
+    {
+      "segment_index": 92,
+      "english": "The intermediate domains are evenly distributed between source and target.",
+      "formal": "Intermediate domains are equally spaced between source and target.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-92",
+      "flag": "none"
+    },
+    {
+      "segment_index": 95,
+      "english": "The intermediate domains are also evenly distributed between source and target.",
+      "formal": "Intermediate domains are evenly placed between source and target.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-95",
+      "flag": "none"
+    },
+    {
+      "segment_index": 112,
+      "english": "Variants such as LookSAM, F-SAM, and FisherSAM offer the strongest and most consistent improvement over SAM.",
+      "formal": "LookSAM, F-SAM, FisherSAM show the best and consistent SAM improvements.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-112",
+      "flag": "none"
+    },
+    {
+      "segment_index": 113,
+      "english": "LookSAM and NoSAM perform the best among the variants with reduced computational cost.",
+      "formal": "LookSAM and NoSAM excel among low computational cost variants.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-113",
+      "flag": "none"
+    },
+    {
+      "segment_index": 113,
+      "english": "LookSAM and NoSAM often outperform the original SAM in addition to being more efficient.",
+      "formal": "LookSAM, NoSAM surpass original SAM and are more efficient.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-113",
+      "flag": "none"
+    },
+    {
+      "segment_index": 117,
+      "english": "FisherSAM takes the information geometry of the data into account, using an approximation of the Fisher information matrix of parameters to find the maximum perturbation.",
+      "formal": "FisherSAM uses data's information geometry to find max perturbation with Fisher matrix.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-117",
+      "flag": "none"
+    },
+    {
+      "segment_index": 118,
+      "english": "Under the cross-entropy loss used specifically in the experiments in Table 2, the Fisher information matrix is directly equivalent to the Hessian matrix of the cross-entropy loss.",
+      "formal": "In Table 2 experiments, Fisher matrix equals cross-entropy Hessian.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-118",
+      "flag": "none"
+    },
+    {
+      "segment_index": 119,
+      "english": "FisherSAM could be understood as a second-order approximation of the loss perturbation.",
+      "formal": "FisherSAM is a second-order loss perturbation approximation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-119",
+      "flag": "none"
+    },
+    {
+      "segment_index": 120,
+      "english": "Unlike FisherSAM, the connection between the FriendlySAM objective and OOD performance is not as explicit.",
+      "formal": "FriendlySAM's OOD link is less explicit than FisherSAM's.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-120",
+      "flag": "none"
+    },
+    {
+      "segment_index": 123,
+      "english": "The modified perturbation makes FriendlySAM significantly more robust to the choice of the \u03c1 hyperparameter.",
+      "formal": "FriendlySAM's modified perturbation enhances robustness to \u03c1 selection.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-123",
+      "flag": "none"
+    },
+    {
+      "segment_index": 124,
+      "english": "The optimal value of \u03c1 depends intricately on the choice of dataset.",
+      "formal": "Optimal \u03c1 value is dataset-dependent.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-124",
+      "flag": "none"
+    },
+    {
+      "segment_index": 124,
+      "english": "FriendlySAM provides performance gains in experiments by penalizing sharpness adaptively and stably.",
+      "formal": "FriendlySAM aids performance by adaptively, stably penalizing sharpness.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-124",
+      "flag": "none"
+    },
+    {
+      "segment_index": 126,
+      "english": "The Wasserstein distance is the smallest cost of moving mass between two distributions measured by a distance metric.",
+      "formal": "Wasserstein distance is minimal cost of redistributing between two distributions.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-126",
+      "flag": "none"
+    },
+    {
+      "segment_index": 127,
+      "english": "The loss functions considered in this paper are Lipschitz continuous.",
+      "formal": "Considered loss functions are Lipschitz continuous.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-127",
+      "flag": "none"
+    },
+    {
+      "segment_index": 127,
+      "english": "For the loss function \u2113, there exist constants \u03c11, \u03c12, \u03c13 such that certain inequalities involving \u2113 hold.",
+      "formal": "For \u2113, constants \u03c11, \u03c12, \u03c13 satisfy certain inequalities.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-127",
+      "flag": "none"
+    },
+    {
+      "segment_index": 130,
+      "english": "This result holds for any choice of \u00b5,\u03bd on Y\u00d7X.",
+      "formal": "Result applies to any \u00b5,\u03bd on Y\u00d7X.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-130",
+      "flag": "none"
+    },
+    {
+      "segment_index": 131,
+      "english": "Lemma 1 (Sharpness-Aware Error Difference Over Shifted Domains) posits a bound on the difference in error between two distributions.",
+      "formal": "Lemma 1 bounds error difference between two distributions.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-131",
+      "flag": "none"
+    },
+    {
+      "segment_index": 132,
+      "english": "Population error of a model \u03b8 can be bounded in terms of its empirical sharpness.",
+      "formal": "Model \u03b8's population error is bound by its empirical sharpness.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-132",
+      "flag": "none"
+    },
+    {
+      "segment_index": 133,
+      "english": "For any model \u03b8 \u2208 \u0398 satisfying E(\u03b8) \u2264 E\u03f5\u223cN(0,\u03c12I)[E(\u03b8+\u03f5)] for some \u03c1 > 0, with high probability (w.p. \u2265 1\u2212\u03b4), E(\u03b8) \u2264 \u02c6E\u03c1(\u03b8) + O(\u221a(k ln(\u2225\u03b8\u22252/\u03c12) + ln(n/\u03b4))/n).",
+      "formal": "For \u03b8\u2208\u0398, E(\u03b8) \u2264 E\u03f5\u223cN(0,\u03c12I)[E(\u03b8+\u03f5)] implies E(\u03b8) \u2264 \u02c6E\u03c1(\u03b8) + O((k ln(\u2225\u03b8\u22252/\u03c12) + ln(n/\u03b4))/n).",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-133",
+      "flag": "none"
+    },
+    {
+      "segment_index": 133,
+      "english": "Using the error difference lemma from Lemma 1 and the PAC-Bayesian bound from Lemma 2, an OOD generalization bound for SAM can be stated for any choice of distributions \u00b5, \u03bd on Y\u00d7X.",
+      "formal": "Error difference lemma and PAC-Bayesian bound offer OOD generalization bound for SAM for \u00b5,\u03bd on Y\u00d7X.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-133",
+      "flag": "none"
+    },
+    {
+      "segment_index": 134,
+      "english": "This result upper bounds the error of a model \u03b8\u00b5 on domain \u00b5 by the error of \u03b8\u03bd on domain \u03bd, the sample complexity term from the PAC Bayesian analysis in Lemma 2, the sharpness of \u03b8\u00b5 in domain \u00b5, the distance between \u03b8\u00b5 and \u03b8\u03bd, and the Wasserstein distance between distributions \u00b5 and \u03bd.",
+      "formal": "This result bounds \u03b8\u00b5's error on \u00b5 using \u03b8\u03bd's error on \u03bd, PAC complexity, \u03b8\u00b5 sharpness, \u03b8\u00b5-\u03b8\u03bd distance, Wasserstein (\u00b5,\u03bd).",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-134",
+      "flag": "none"
+    },
+    {
+      "segment_index": 135,
+      "english": "Theorem 1 (Sharpness-Aware Domain Adaptation Error): For distributions \u00b5 and \u03bd over X\u00d7Y and an error function E satisfying certain properties, with probability at least 1\u2212\u03b4, the error on \u03b8\u00b5 is bounded by the error on \u03b8\u03bd plus additional terms.",
+      "formal": "Theorem 1: Error on \u03b8\u00b5 bound by \u03b8\u03bd error and extra terms for distributions \u00b5,\u03bd.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-135",
+      "flag": "none"
+    },
+    {
+      "segment_index": 141,
+      "english": "Each domain t\u2208[T] is a distribution \u00b5t over X\u00d7Y.",
+      "formal": "Each domain t \u2208 [T] is distribution \u00b5t on X\u00d7Y.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-141",
+      "flag": "none"
+    },
+    {
+      "segment_index": 145,
+      "english": "The distribution shift between successive pairs of gradually shifted distributions and the average distribution shift of all pairs are mathematically defined.",
+      "formal": "Successive and average distribution shifts are mathematically defined.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-145",
+      "flag": "none"
+    },
+    {
+      "segment_index": 145,
+      "english": "In gradual domain adaptation, a learner progressively accesses unlabeled examples from intermediate domains to minimize generalization error in the target domain.",
+      "formal": "Gradual DA uses intermediate domains for minimizing target domain's error.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-145",
+      "flag": "none"
+    },
+    {
+      "segment_index": 146,
+      "english": "Adding Gaussian perturbation around \u03b8\u00b5 increases the expected loss.",
+      "formal": "Gaussian perturbation near \u03b8\u00b5 raises expected loss.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-146",
+      "flag": "none"
+    },
+    {
+      "segment_index": 155,
+      "english": "We choose the optimal number of intermediate domains T\u22c6 for SAM from Figure 1.",
+      "formal": "Optimal intermediate domains T\u22c6 for SAM selected from Figure 1.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-155",
+      "flag": "none"
+    },
+    {
+      "segment_index": 158,
+      "english": "SAM can be applied to GDA to consistently achieve stronger performance.",
+      "formal": "SAM consistently boosts GDA performance.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-158",
+      "flag": "none"
+    },
+    {
+      "segment_index": 159,
+      "english": "SAM is not too sensitive to the perturbation radius hyperparameter.",
+      "formal": "SAM's sensitivity to perturbation radius is minimal.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-159",
+      "flag": "none"
+    },
+    {
+      "segment_index": 160,
+      "english": "SAM with \u03c1= 0.2 leads to the strongest performance on Rotated MNIST, Portraits, and Color MNIST.",
+      "formal": "Using \u03c1= 0.2 achieves top SAM performance on Rotated MNIST, Portraits, Color MNIST.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-160",
+      "flag": "none"
+    },
+    {
+      "segment_index": 160,
+      "english": "SAM with \u03c1= 0.05 leads to the strongest performance on Covertype.",
+      "formal": "Using \u03c1= 0.05 achieves top SAM performance on Covertype.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-160",
+      "flag": "none"
+    },
+    {
+      "segment_index": 161,
+      "english": "The strongest SAM variants lead to an average improvement of 1.42% compared to using Adam.",
+      "formal": "Top SAM variants outperform Adam by 1.42% on average.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-161",
+      "flag": "none"
+    },
+    {
+      "segment_index": 163,
+      "english": "The SAM variants with reduced computational cost tend to underperform Adam on GDA.",
+      "formal": "Low-cost SAM variants underperform Adam in GDA.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-163",
+      "flag": "none"
+    },
+    {
+      "segment_index": 164,
+      "english": "FriendlySAM outperforms SAM by 0.40% on average across all datasets.",
+      "formal": "FriendlySAM exceeds SAM by 0.40% on average over datasets.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-164",
+      "flag": "none"
+    },
+    {
+      "segment_index": 164,
+      "english": "FisherSAM slightly underperforms SAM by 0.01%.",
+      "formal": "FisherSAM is 0.01% less efficient than SAM.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-164",
+      "flag": "none"
+    },
+    {
+      "segment_index": 165,
+      "english": "SAM can be used to consistently improve target domain error for GDA.",
+      "formal": "SAM consistently reduces target domain error in GDA.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-165",
+      "flag": "none"
+    },
+    {
+      "segment_index": 166,
+      "english": "The segment claims that there is an extension of Theorem 1 to the setting of gradual domain adaptation (GDA).",
+      "formal": "Theorem 1 is extended for GDA.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-166",
+      "flag": "none"
+    },
+    {
+      "segment_index": 166,
+      "english": "GDA is presented as a technique which improves target domain error by performing gradual self-training on unlabeled intermediate domains between the source and target domain.",
+      "formal": "GDA uses gradual self-training on unlabeled intermediates to improve target error.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-166",
+      "flag": "none"
+    },
+    {
+      "segment_index": 173,
+      "english": "The discrepancy measure captures the non-stationarity of the gradually shifting data.",
+      "formal": "Discrepancy measure reflects data's non-stationarity.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-173",
+      "flag": "none"
+    },
+    {
+      "segment_index": 174,
+      "english": "The sequential Rademacher complexity generalizes the standard Rademacher complexity to the online learning setting.",
+      "formal": "Sequential Rademacher complexity adapts standard complexity for online learning.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-174",
+      "flag": "none"
+    },
+    {
+      "segment_index": 176,
+      "english": "Each of the nT samples is viewed as the smallest element of the adaptation process.",
+      "formal": "nT samples are smallest adaptation process elements.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-176",
+      "flag": "none"
+    },
+    {
+      "segment_index": 178,
+      "english": "Generalization bound can be stated for GDA performed using SAM.",
+      "formal": "Generalization bound exists for SAM-used GDA.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-178",
+      "flag": "none"
+    },
+    {
+      "segment_index": 179,
+      "english": "The population risk of the gradually adapted model \u03b8T can be bounded under certain conditions.",
+      "formal": "Population risk for gradually adapted \u03b8T is boundable.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-179",
+      "flag": "none"
+    },
+    {
+      "segment_index": 182,
+      "english": "By applying Corollary 2 of Kuznetsov & Mohri (2020a), a preliminary bound on the error in the target domain ET(\u03b8T) can be obtained.",
+      "formal": "Error bound for target domain ET(\u03b8T) obtained using Kuznetsov & Mohri.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-182",
+      "flag": "none"
+    },
+    {
+      "segment_index": 184,
+      "english": "The bound we obtain in Theorem 2 is of a specific mathematical form.",
+      "formal": "Theorem 2 offers mathematically specific bound.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-184",
+      "flag": "none"
+    },
+    {
+      "segment_index": 189,
+      "english": "Adding Gaussian perturbation to each solution \u03b8t increases the expected loss.",
+      "formal": "Each \u03b8t with Gaussian perturbation raises expected loss.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-189",
+      "flag": "none"
+    },
+    {
+      "segment_index": 189,
+      "english": "Theorem 1 must relate the parameters of the successive domains separately.",
+      "formal": "Theorem 1 requires separate parameter relationships.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-189",
+      "flag": "none"
+    },
+    {
+      "segment_index": 190,
+      "english": "The PAC Bayes bound introduces an additional weight norm term W_avg.",
+      "formal": "PAC Bayes bound adds W_avg weight norm term.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-190",
+      "flag": "none"
+    },
+    {
+      "segment_index": 191,
+      "english": "The PAC Bayesian bound yields a different sample complexity term compared to the original analysis using the Rademacher complexity.",
+      "formal": "PAC Bayesian bound differs from Rademacher in sample complexity.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-191",
+      "flag": "none"
+    },
+    {
+      "segment_index": 197,
+      "english": "The overall sample complexity is expected to remain the same between our Theorem 2 and the main result in Wang et al.",
+      "formal": "Our Theorem 2 and Wang et al. expect consistent sample complexity.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-197",
+      "flag": "none"
+    },
+    {
+      "segment_index": 200,
+      "english": "A tighter error difference between shifted domains would improve the analysis.",
+      "formal": "Tighter shifted domain error difference enhances analysis.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-200",
+      "flag": "none"
+    },
+    {
+      "segment_index": 201,
+      "english": "A localized analysis could exploit implicit properties of SAM.",
+      "formal": "Localized analysis can leverage SAM implicit properties.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-201",
+      "flag": "none"
+    },
+    {
+      "segment_index": 203,
+      "english": "There is a relationship between sharpness and generalization.",
+      "formal": "Sharpness is related to generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-203",
+      "flag": "none"
+    },
+    {
+      "segment_index": 206,
+      "english": "Sharpness is among the empirical measures most strongly correlated with generalization.",
+      "formal": "Sharpness strongly correlates with generalization empirically.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-206",
+      "flag": "none"
+    },
+    {
+      "segment_index": 208,
+      "english": "Sharp minima can generalize under reparameterizations that cause flat minima to become arbitrarily sharp.",
+      "formal": "Sharp minima can generalize despite reparameterizations causing flat minima sharpness.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-208",
+      "flag": "none"
+    },
+    {
+      "segment_index": 209,
+      "english": "A measure of sharpness is tied to the information geometry of the data and is invariant under reparameterizations.",
+      "formal": "Sharpness measure is data geometry-related and reparameterization-invariant.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-209",
+      "flag": "none"
+    },
+    {
+      "segment_index": 210,
+      "english": "Many works have explored algorithms that lead to flatter solutions.",
+      "formal": "Research explores algorithms creating flatter solutions.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-210",
+      "flag": "none"
+    },
+    {
+      "segment_index": 211,
+      "english": "In the context of domain generalization (DG), sharpness affects generalization.",
+      "formal": "In DG, sharpness impacts generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-211",
+      "flag": "none"
+    },
+    {
+      "segment_index": 212,
+      "english": "A modified version of stochastic weight averaging leads to flatter minima with improved DG.",
+      "formal": "Modified stochastic weight averaging results in flatter minima, improving DG.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-212",
+      "flag": "none"
+    },
+    {
+      "segment_index": 213,
+      "english": "Generalization bounds depend on the empirical robust loss in the source domain.",
+      "formal": "Generalization bounds rely on source domain empirical robust loss.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-213",
+      "flag": "none"
+    },
+    {
+      "segment_index": 215,
+      "english": "A flatness-aware minimization algorithm for DG leads to improved performance.",
+      "formal": "Flatness-aware minimization enhances DG performance.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-215",
+      "flag": "none"
+    },
+    {
+      "segment_index": 217,
+      "english": "Out-of-distribution (OOD) generalization bounds are presented based on sharpness.",
+      "formal": "OOD generalization bounds are given in terms of sharpness.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-217",
+      "flag": "none"
+    },
+    {
+      "segment_index": 219,
+      "english": "Sharpness-Aware Minimization (SAM) was originally proposed in Foret et al.",
+      "formal": "SAM was initially suggested by Foret et al.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-219",
+      "flag": "none"
+    },
+    {
+      "segment_index": 220,
+      "english": "A PAC Bayesian analysis provides a generalization bound in terms of the expected sharpness over an isotropic Gaussian perturbation.",
+      "formal": "PAC Bayesian analysis offers a bound based on expected sharpness with isotropic Gaussian perturbation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-220",
+      "flag": "none"
+    },
+    {
+      "segment_index": 222,
+      "english": "The practical implementation of SAM uses this first-order approximation.",
+      "formal": "SAM's practical use employs first-order approximation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-222",
+      "flag": "none"
+    },
+    {
+      "segment_index": 224,
+      "english": "The flatness of the final solution does not sufficiently capture the generalization benefit from SAM alone.",
+      "formal": "Final solution flatness inadequately captures SAM's generalization benefit.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-224",
+      "flag": "none"
+    },
+    {
+      "segment_index": 225,
+      "english": "SAM leads to lower rank features with fewer active ReLU units.",
+      "formal": "SAM reduces feature rank and ReLU unit activity.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-225",
+      "flag": "none"
+    },
+    {
+      "segment_index": 225,
+      "english": "SAM enhances feature quality by selecting more balanced features.",
+      "formal": "SAM boosts feature quality by balancing selection.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-225",
+      "flag": "none"
+    },
+    {
+      "segment_index": 225,
+      "english": "SAM enhances robustness to label noise through implicitly regularizing the model Jacobian.",
+      "formal": "SAM enhances label noise robustness by implicit Jacobian regularization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-225",
+      "flag": "none"
+    },
+    {
+      "segment_index": 225,
+      "english": "SAM has an implicit denoising mechanism which prevents harmful overfitting in settings when SGD would harmfully overfit.",
+      "formal": "SAM's implicit denoising deters harmful overfitting, unlike SGD.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-225",
+      "flag": "none"
+    },
+    {
+      "segment_index": 226,
+      "english": "Many variants of SAM have been proposed to improve the efficiency and accuracy of the original SAM.",
+      "formal": "SAM variants aim to improve original SAM efficiency and accuracy.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-226",
+      "flag": "none"
+    },
+    {
+      "segment_index": 229,
+      "english": "Gradual self-training (GST) in GDA outperforms standard self-training without intermediate domains.",
+      "formal": "GST in GDA overshadows standard self-training lacking intermediate domains.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-229",
+      "flag": "none"
+    },
+    {
+      "segment_index": 230,
+      "english": "These bounds have an exponential dependence on the number of intermediate domains T.",
+      "formal": "Bounds exponentially depend on intermediate domains T.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-230",
+      "flag": "none"
+    },
+    {
+      "segment_index": 234,
+      "english": "The analysis can be generalized to any \u03c1-Lipschitz losses and Wasserstein distances of any order p\u22651.",
+      "formal": "Analysis generalizes to any \u03c1-Lipschitz losses and p\u22651 Wasserstein distances.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-234",
+      "flag": "none"
+    },
+    {
+      "segment_index": 235,
+      "english": "The existence of an optimal choice of intermediate domains T is suggested by the refined bounds.",
+      "formal": "Refined bounds imply optimal intermediate domains T exist.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-235",
+      "flag": "none"
+    },
+    {
+      "segment_index": 238,
+      "english": "A new method of generating intermediate domains in an encoded feature space is proposed.",
+      "formal": "New method proposed for creating intermediate domains in encoded feature space.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-238",
+      "flag": "none"
+    },
+    {
+      "segment_index": 242,
+      "english": "The main limitation of this work is the discrepancy between our theoretical analysis based on sharpness and the asymptotic rate of prior work.",
+      "formal": "Major limitation is discrepancy in sharpness-based theoretical analysis and prior work's asymptotic rate.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-242",
+      "flag": "none"
+    },
+    {
+      "segment_index": 244,
+      "english": "The analysis for SAM can be tightened.",
+      "formal": "SAM analysis can be refined.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-244",
+      "flag": "none"
+    },
+    {
+      "segment_index": 247,
+      "english": "SAM contributes to out-of-distribution generalization.",
+      "formal": "SAM aids OOD generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-247",
+      "flag": "none"
+    },
+    {
+      "segment_index": 248,
+      "english": "The original SAM achieved a 4.76% average improvement over the Adam baseline.",
+      "formal": "Original SAM improves Adam by 4.76% on average.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-248",
+      "flag": "none"
+    },
+    {
+      "segment_index": 248,
+      "english": "The strongest SAM variants achieved an 8.01% average improvement over the Adam baseline.",
+      "formal": "Top SAM variants top Adam by 8.01% on average.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-248",
+      "flag": "none"
+    },
+    {
+      "segment_index": 249,
+      "english": "An OOD (Out-of-Distribution) generalization bound can be derived based on sharpness.",
+      "formal": "OOD generalization bound is derivable from sharpness.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-249",
+      "flag": "none"
+    },
+    {
+      "segment_index": 252,
+      "english": "We provided an extension of our OOD generalization bound to get a generalization bound based on sharpness for GDA.",
+      "formal": "We've extended our OOD bound to a sharpness-based generalization bound for GDA.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-252",
+      "flag": "none"
+    },
+    {
+      "segment_index": 254,
+      "english": "There is a discrepancy between theoretical and empirical results regarding SAM.",
+      "formal": "Discrepancy exists between SAM's theoretical and empirical results.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-254",
+      "flag": "none"
+    },
+    {
+      "segment_index": 255,
+      "english": "Our theoretical results provide a starting point for doing this.",
+      "formal": "Theoretical results offer a starting point.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-255",
+      "flag": "none"
+    },
+    {
+      "segment_index": 255,
+      "english": "Our empirical results suggest that SAM can be used empirically to achieve significant gains for OOD generalization.",
+      "formal": "Empirical results indicate SAM's OOD generalization efficacy.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-255",
+      "flag": "none"
+    },
+    {
+      "segment_index": 257,
+      "english": "Sharpness-aware minimization leads to low-rank features.",
+      "formal": "SAM results in low-rank features.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-257",
+      "flag": "none"
+    },
+    {
+      "segment_index": 265,
+      "english": "There is a cohesive theory that addresses how learning occurs across different domains.",
+      "formal": "A cohesive theory explains multi-domain learning.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-265",
+      "flag": "none"
+    },
+    {
+      "segment_index": 276,
+      "english": "Domain generalization can be achieved by seeking flat minima.",
+      "formal": "Seek flat minima for domain generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-276",
+      "flag": "none"
+    },
+    {
+      "segment_index": 279,
+      "english": "Entropy-sgd biases gradient descent into wide valleys.",
+      "formal": "Entropy-sgd directs gradient descent to wide valleys.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-279",
+      "flag": "none"
+    },
+    {
+      "segment_index": 282,
+      "english": "Sharpness-aware minimization generalizes better than SGD.",
+      "formal": "SAM generalizes better than SGD.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-282",
+      "flag": "none"
+    },
+    {
+      "segment_index": 285,
+      "english": "Sharp minima can generalize for deep nets.",
+      "formal": "Sharp minima generalize in deep networks.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-285",
+      "flag": "none"
+    },
+    {
+      "segment_index": 293,
+      "english": "Efficient sharpness-aware minimization leads to improved training of neural networks.",
+      "formal": "Efficient SAM enhances neural network training.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-293",
+      "flag": "none"
+    },
+    {
+      "segment_index": 296,
+      "english": "Sharpness-aware minimization efficiently improves generalization.",
+      "formal": "SAM efficiently boosts generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-296",
+      "flag": "none"
+    },
+    {
+      "segment_index": 305,
+      "english": "Flat minima in the context of optimization and machine learning refer to regions in the parameter space where the loss function is relatively invariant or 'flat', leading to potentially better-generalizing solutions.",
+      "formal": "Flat minima in optimization offer invariant regions for better generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-305",
+      "flag": "none"
+    },
+    {
+      "segment_index": 311,
+      "english": "Batch normalization accelerates deep network training.",
+      "formal": "Batch normalization speeds up deep network training.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-311",
+      "flag": "none"
+    },
+    {
+      "segment_index": 314,
+      "english": "Averaging weights leads to wider optima and better generalization.",
+      "formal": "Weight averaging provides wider optima for better generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-314",
+      "flag": "none"
+    },
+    {
+      "segment_index": 321,
+      "english": "Large-batch training for deep learning leads to a generalization gap.",
+      "formal": "Large-batch training induces a generalization gap.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-321",
+      "flag": "none"
+    },
+    {
+      "segment_index": 321,
+      "english": "Large-batch training results in sharp minima.",
+      "formal": "Sharp minima arise from large-batch training.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-321",
+      "flag": "none"
+    },
+    {
+      "segment_index": 329,
+      "english": "Information geometry provides a framework for understanding optimization techniques like sharpness aware minimisation.",
+      "formal": "Information geometry explains SAM optimization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-329",
+      "flag": "none"
+    },
+    {
+      "segment_index": 335,
+      "english": "Self-training is an effective method for gradual domain adaptation.",
+      "formal": "Self-training effectively facilitates gradual domain adaptation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-335",
+      "flag": "none"
+    },
+    {
+      "segment_index": 340,
+      "english": "Discrepancy-based theory is useful for forecasting non-stationary time series.",
+      "formal": "Discrepancy theory aids in non-stationary time series prediction.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-340",
+      "flag": "none"
+    },
+    {
+      "segment_index": 346,
+      "english": "Adaptive sharpness-aware minimization (Asam) is proposed for scale-invariant learning in deep neural networks.",
+      "formal": "ASAM supports scale-invariant deep neural network learning.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-346",
+      "flag": "none"
+    },
+    {
+      "segment_index": 368,
+      "english": "The natural gradient method provides new insights and perspectives.",
+      "formal": "Natural gradient method offers fresh insights.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-368",
+      "flag": "none"
+    },
+    {
+      "segment_index": 372,
+      "english": "Normalization layers are all that sharpness-aware minimization needs.",
+      "formal": "SAM requires only normalization layers.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-372",
+      "flag": "none"
+    },
+    {
+      "segment_index": 378,
+      "english": "Online learning can be understood through the framework of sequential complexities.",
+      "formal": "Sequential complexities elucidate online learning.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-378",
+      "flag": "none"
+    },
+    {
+      "segment_index": 384,
+      "english": "Sharpness-aware minimization enhances feature quality via balanced learning.",
+      "formal": "SAM improves feature quality through balanced learning.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-384",
+      "flag": "none"
+    },
+    {
+      "segment_index": 388,
+      "english": "Dropout is a simple way to prevent neural networks from overfitting.",
+      "formal": "Dropout prevents neural network overfitting.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-388",
+      "flag": "none"
+    },
+    {
+      "segment_index": 392,
+      "english": "Gradual domain adaptation can be better understood through improved analysis.",
+      "formal": "Enhanced analysis clarifies gradual domain adaptation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-392",
+      "flag": "none"
+    },
+    {
+      "segment_index": 396,
+      "english": "Sharpness minimization algorithms do not only minimize sharpness to achieve better generalization.",
+      "formal": "Sharpness algorithms use more than minimizing sharpness for generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-396",
+      "flag": "none"
+    },
+    {
+      "segment_index": 402,
+      "english": "Averaging weights of multiple fine-tuned models improves accuracy without increasing inference time.",
+      "formal": "Weight averaging of fine-tuned models enhances accuracy without extra inference time.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-402",
+      "flag": "none"
+    },
+    {
+      "segment_index": 407,
+      "english": "A theoretical framework for out-of-distribution generalization is necessary.",
+      "formal": "OOD generalization requires a theoretical framework.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-407",
+      "flag": "none"
+    },
+    {
+      "segment_index": 410,
+      "english": "Flatness-aware minimization is a crucial method for improving domain generalization.",
+      "formal": "Flatness-aware minimization crucially improves domain generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-410",
+      "flag": "none"
+    },
+    {
+      "segment_index": 414,
+      "english": "Invariant representations are crucial for effective domain adaptation.",
+      "formal": "Invariant representations are key to domain adaptation.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-414",
+      "flag": "none"
+    },
+    {
+      "segment_index": 419,
+      "english": "There are fundamental limits in invariant representation learning.",
+      "formal": "Invariant representation learning has fundamental limits.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-419",
+      "flag": "none"
+    },
+    {
+      "segment_index": 419,
+      "english": "Tradeoffs exist in the process of learning invariant representations.",
+      "formal": "Invariant representation learning involves tradeoffs.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-419",
+      "flag": "none"
+    },
+    {
+      "segment_index": 422,
+      "english": "Gradual domain adaptation via gradient flow is a viable method.",
+      "formal": "GDA by gradient flow is viable.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-422",
+      "flag": "none"
+    },
+    {
+      "segment_index": 425,
+      "english": "Robust out-of-distribution generalization can be achieved through considerations of sharpness.",
+      "formal": "Sharpness considerations secure robust OOD generalization.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-425",
+      "flag": "none"
+    },
+    {
+      "segment_index": 428,
+      "english": "|E\u03c1\u00b5(\u03b8\u00b5)\u2212E\u03bd(\u03b8\u03bd)|\u2264S\u03c1(\u03b8\u00b5) +O(\u2225\u03b8\u00b5\u2212\u03b8\u03bd\u2225+Wp(\u00b5,\u03bd))",
+      "formal": "Error difference bound by sharpness and distribution distance.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-428",
+      "flag": "none"
+    },
+    {
+      "segment_index": 430,
+      "english": "Given distributions \u00b5, \u03bd over X \u00d7 Y and an error function E with loss satisfying Assumption 1 with some local minimum \u03b8\u00b5, it holds that E\u00b5(\u03b8\u00b5) \u2264 E\u03bd(\u03b8\u03bd) + O(...) + S\u03c1(\u03b8\u00b5) with high probability (w.p. \u2265 1 \u2212 \u03b4).",
+      "formal": "E\u00b5(\u03b8\u00b5) is error-bounded by E\u03bd(\u03b8\u03bd) with high probability, based on Assumption 1.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-430",
+      "flag": "none"
+    },
+    {
+      "segment_index": 430,
+      "english": "A sharpness-aware generalization bound, along with Rademacher complexity and robust error difference, provides a bound on the error expectation.",
+      "formal": "Sharpness-aware bound with Rademacher and robust error provides error expectation bound.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-430",
+      "flag": "none"
+    },
+    {
+      "segment_index": 431,
+      "english": "If E(\u03b8) \u2264 E\u03f5\u223cN(0,\u03c12I)[E(\u03b8+\u03f5)], then with probability \u2265 1\u2212\u03b4, E(\u03b8) \u2264 \u02c6E\u03c1(\u03b8) + O(sqrt((k ln(\u2225\u03b8\u22252/\u03c12) + ln(n/\u03b4))/n)).",
+      "formal": "If E(\u03b8) \u2264 E\u03f5\u223cN(0,\u03c12I)[E(\u03b8+\u03f5)], E(\u03b8) is bounded with high probability.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-431",
+      "flag": "none"
+    },
+    {
+      "segment_index": 433,
+      "english": "Theorem 2 is a key claim that is restated within the context of 'Total Sharpness-Aware Error Under GDA'.",
+      "formal": "Theorem 2 restates 'Total Sharpness-Aware Error Under GDA'.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-433",
+      "flag": "none"
+    },
+    {
+      "segment_index": 434,
+      "english": "The population risk of the gradually adapted model \u03b8T can be bounded with high probability.",
+      "formal": "Population risk of gradually adapted \u03b8T is bounded with high probability.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-434",
+      "flag": "none"
+    },
+    {
+      "segment_index": 438,
+      "english": "The term ET(\u03b8T) can be bounded by a sequence of steps applying Theorem 1.",
+      "formal": "ET(\u03b8T) is bounded using Theorem 1 in steps.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-438",
+      "flag": "none"
+    },
+    {
+      "segment_index": 438,
+      "english": "ET\u22121(\u03b8T) and other successive terms (ET\u22122(\u03b8T), ET\u22123(\u03b8T), etc.) can be bound similarly using the derived formulas.",
+      "formal": "Terms like ET\u22121(\u03b8T) are similarly bound using derived formulas.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-438",
+      "flag": "none"
+    },
+    {
+      "segment_index": 439,
+      "english": "The text provides a bound on the expected value ET(\u03b8T) given initial conditions and average values of different parameters over time T.",
+      "formal": "Bound on ET(\u03b8T) uses initial conditions, average parameter values over T.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-439",
+      "flag": "none"
+    },
+    {
+      "segment_index": 442,
+      "english": "|E\u00b5(\u03b8)\u2212E\u03bd(\u03b8)|\u2264O (Wp(\u00b5,\u03bd))",
+      "formal": "Error difference limited by Wasserstein distance.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-442",
+      "flag": "none"
+    },
+    {
+      "segment_index": 444,
+      "english": "Proposition 1 (Discrepancy Bound - Lemma 2 of Wang et al.",
+      "formal": "Proposition 1 gives discrepancy bound per Wang et al.'s Lemma 2.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-444",
+      "flag": "none"
+    },
+    {
+      "segment_index": 446,
+      "english": "disc(qt) \u2264 O/parenleft\uf8eciggt\u22121/summationdisplay k=0 qk(t\u2212k\u22121)Wp(\u00b5k,\u00b5k+1)/parenright\uf8ecigg",
+      "formal": "disc(qt) is bounded by distribution shifts.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-446",
+      "flag": "none"
+    },
+    {
+      "segment_index": 446,
+      "english": "disc(qt) \u2264 O(t\u2206) when qt=q\u22c6 t:= (1/t,..., 1/t)",
+      "formal": "disc(qt) follows O(t\u2206) under specific conditions.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-446",
+      "flag": "none"
+    },
+    {
+      "segment_index": 448,
+      "english": "Definition 8 (Rademacher Complexity) introduces the concept of empirical Rademacher complexity for a model class.",
+      "formal": "Rademacher Complexity defines empirical complexity for models.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-448",
+      "flag": "none"
+    },
+    {
+      "segment_index": 450,
+      "english": "The Rademacher Complexity of our model family is bounded for all distributions \u00b5\u2208\u2206(Rd).",
+      "formal": "Model's Rademacher Complexity is bounded for \u00b5\u2208\u2206(Rd).",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-450",
+      "flag": "none"
+    },
+    {
+      "segment_index": 451,
+      "english": "There exists some B > 0 so that for any set of n samples drawn i.i.d.",
+      "formal": "Some B > 0 exists for any i.i.d. sample set.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-451",
+      "flag": "none"
+    },
+    {
+      "segment_index": 452,
+      "english": "R\u00b5(\u0398) \u2264 B\u221an given that \u00b5 is an element of \u0394(Rd)",
+      "formal": "R\u00b5(\u0398) \u2264 B\u221an if \u00b5\u2208 \u0394(Rd).",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-452",
+      "flag": "none"
+    },
+    {
+      "segment_index": 453,
+      "english": "Lemma 4 (Rademacher Complexity Generalization Bound): If Assumption 2 holds, then for any \u03b8\u2208\u0398, the absolute difference between its empirical and population error can be upper bounded.",
+      "formal": "Lemma 4: Under Assumption 2, \u03b8's empirical vs. population error is boundable.",
+      "source": "https://arxiv.org/pdf/2412.05169.pdf#segment-453",
+      "flag": "none"
+    }
+  ]
+}
