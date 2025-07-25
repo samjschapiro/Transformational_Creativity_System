@@ -1,5 +1,6 @@
 import json, random, pathlib, re
 from collections import defaultdict
+# need to start venv -> install -r requirements.txt
 
 random.seed(42)
 
