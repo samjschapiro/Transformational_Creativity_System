@@ -1,0 +1,8 @@
+api_call.py
+.env
+tc_finetuning/xform-lora/
+tc_finetuning/data/eval.jsonl
+tc_finetuning/data/train.jsonl
+venv/
+venv/lib/
+venv/

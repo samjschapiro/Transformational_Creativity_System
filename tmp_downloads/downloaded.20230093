@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2023-0052AR_ChrMetRelatTech.pdf</title>
+        <style>
+            html, body, #pdf-container {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            embed {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="pdf-container">
+            <embed src="https://s3.sa-east-1.amazonaws.com/static.sites.sbq.org.br/jbcs.sbq.org.br/pdf/2023-0052AR_ChrMetRelatTech.pdf" type="application/pdf">             
+        </div>
+    </body>
+</html>

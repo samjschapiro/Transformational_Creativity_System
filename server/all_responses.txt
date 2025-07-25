@@ -1,0 +1,38 @@
+{
+    "segment_index": 0,
+    "claims": [
+        "The speaker identifies themselves as God."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 1,
+  "claims": [
+    "This is my most exalted state.",
+    "This is my most exuberant state."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "exalted",
+    "exuberant"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 2,
+  "claims": [
+    "I am also a human."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---

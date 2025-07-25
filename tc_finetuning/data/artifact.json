@@ -1,0 +1,506 @@
+{
+  "domain_roots": {
+    "Physics": [
+      "barometer",
+      "battery",
+      "buoyancy",
+      "conservation",
+      "cosmic rays",
+      "doppler effect",
+      "electricity",
+      "electromagnetism",
+      "electron",
+      "electron charge",
+      "entanglement",
+      "entropy",
+      "geomagnetism",
+      "gravitation",
+      "gravitational waves",
+      "heat",
+      "higgs boson",
+      "induction",
+      "laser",
+      "mechanical equivalent of heat",
+      "neutron",
+      "nuclear fission",
+      "nucleus",
+      "photoelectric effect",
+      "quantum mechanics",
+      "quark model",
+      "radio waves",
+      "radioactivity",
+      "relativity",
+      "superconductivity",
+      "symmetry",
+      "transistor",
+      "wave nature",
+      "x-rays"
+    ],
+    "Astronomy": [
+      "black hole image",
+      "dark matter",
+      "exoplanet",
+      "expanding universe",
+      "heliocentrism",
+      "milky way structure",
+      "planetary motion",
+      "pulsars",
+      "saturn rings",
+      "speed of light",
+      "telescopic observations"
+    ],
+    "Biology": [
+      "anatomy",
+      "biodiversity",
+      "cell",
+      "circulation",
+      "endosymbiosis",
+      "germ theory",
+      "inheritance",
+      "microorganisms",
+      "mitosis",
+      "natural selection",
+      "photosynthesis",
+      "population genetics",
+      "taxonomy"
+    ],
+    "Chemistry": [
+      "abiotic synthesis",
+      "atomic theory",
+      "avogadro's law",
+      "conservation",
+      "electrochemistry",
+      "fullerene",
+      "gas law",
+      "nitrogen fixation",
+      "oxygen",
+      "periodicity",
+      "quasicrystals",
+      "spectroscopy"
+    ],
+    "Geology": [
+      "continental drift",
+      "glaciation",
+      "plate tectonics",
+      "seafloor spreading",
+      "stratigraphy",
+      "uniformitarianism"
+    ],
+    "Paleontology": [
+      "dinosaur fossils",
+      "warm-blooded dinosaurs"
+    ],
+    "Medicine": [
+      "anesthesia",
+      "antisepsis",
+      "blood groups",
+      "insulin",
+      "penicillin",
+      "vaccination"
+    ],
+    "Microbiology": [
+      "virus"
+    ],
+    "Cell Biology": [
+      "mitochondria"
+    ],
+    "Atmospheric Science": [
+      "stratosphere"
+    ],
+    "Physiology": [
+      "secretin"
+    ],
+    "Biochemistry": [
+      "krebs cycle",
+      "prions"
+    ],
+    "Cosmology": [
+      "big bang nucleosynthesis",
+      "cosmic microwave background",
+      "dark energy"
+    ],
+    "Mathematics": [
+      "chaos",
+      "fractals",
+      "graph theory",
+      "incompleteness",
+      "information theory",
+      "probability",
+      "symmetry"
+    ],
+    "Genetics": [
+      "gene regulation",
+      "transposable elements"
+    ],
+    "Molecular Biology": [
+      "dna structure"
+    ],
+    "Genomics": [
+      "human genome",
+      "sequencing"
+    ],
+    "Biotechnology": [
+      "crispr",
+      "pcr"
+    ],
+    "Virology": [
+      "hiv",
+      "reverse transcriptase"
+    ],
+    "Climate Science": [
+      "greenhouse effect"
+    ],
+    "Computer Science": [
+      "complexity",
+      "computation",
+      "encryption",
+      "quantum computation"
+    ],
+    "Economics": [
+      "game theory"
+    ]
+  },
+  "root_domains": {
+    "buoyancy": [
+      "Physics"
+    ],
+    "heliocentrism": [
+      "Astronomy"
+    ],
+    "anatomy": [
+      "Biology"
+    ],
+    "telescopic observations": [
+      "Astronomy"
+    ],
+    "planetary motion": [
+      "Astronomy"
+    ],
+    "circulation": [
+      "Biology"
+    ],
+    "barometer": [
+      "Physics"
+    ],
+    "gas law": [
+      "Chemistry"
+    ],
+    "cell": [
+      "Biology"
+    ],
+    "gravitation": [
+      "Physics"
+    ],
+    "stratigraphy": [
+      "Geology"
+    ],
+    "saturn rings": [
+      "Astronomy"
+    ],
+    "microorganisms": [
+      "Biology"
+    ],
+    "taxonomy": [
+      "Biology"
+    ],
+    "milky way structure": [
+      "Astronomy"
+    ],
+    "electricity": [
+      "Physics"
+    ],
+    "oxygen": [
+      "Chemistry"
+    ],
+    "photosynthesis": [
+      "Biology"
+    ],
+    "conservation": [
+      "Chemistry",
+      "Physics"
+    ],
+    "heat": [
+      "Physics"
+    ],
+    "uniformitarianism": [
+      "Geology"
+    ],
+    "electrochemistry": [
+      "Chemistry"
+    ],
+    "atomic theory": [
+      "Chemistry"
+    ],
+    "avogadro's law": [
+      "Chemistry"
+    ],
+    "electromagnetism": [
+      "Physics"
+    ],
+    "dinosaur fossils": [
+      "Paleontology"
+    ],
+    "glaciation": [
+      "Geology"
+    ],
+    "mechanical equivalent of heat": [
+      "Physics"
+    ],
+    "doppler effect": [
+      "Physics"
+    ],
+    "germ theory": [
+      "Biology"
+    ],
+    "natural selection": [
+      "Biology"
+    ],
+    "spectroscopy": [
+      "Chemistry"
+    ],
+    "inheritance": [
+      "Biology"
+    ],
+    "biodiversity": [
+      "Biology"
+    ],
+    "periodicity": [
+      "Chemistry"
+    ],
+    "mitosis": [
+      "Biology"
+    ],
+    "x-rays": [
+      "Physics"
+    ],
+    "blood groups": [
+      "Medicine"
+    ],
+    "electron": [
+      "Physics"
+    ],
+    "virus": [
+      "Microbiology"
+    ],
+    "mitochondria": [
+      "Cell Biology"
+    ],
+    "radioactivity": [
+      "Physics"
+    ],
+    "stratosphere": [
+      "Atmospheric Science"
+    ],
+    "secretin": [
+      "Physiology"
+    ],
+    "krebs cycle": [
+      "Biochemistry"
+    ],
+    "transistor": [
+      "Physics"
+    ],
+    "big bang nucleosynthesis": [
+      "Cosmology"
+    ],
+    "information theory": [
+      "Mathematics"
+    ],
+    "transposable elements": [
+      "Genetics"
+    ],
+    "abiotic synthesis": [
+      "Chemistry"
+    ],
+    "dna structure": [
+      "Molecular Biology"
+    ],
+    "seafloor spreading": [
+      "Geology"
+    ],
+    "chaos": [
+      "Mathematics"
+    ],
+    "quark model": [
+      "Physics"
+    ],
+    "pulsars": [
+      "Astronomy"
+    ],
+    "endosymbiosis": [
+      "Biology"
+    ],
+    "dark matter": [
+      "Astronomy"
+    ],
+    "warm-blooded dinosaurs": [
+      "Paleontology"
+    ],
+    "exoplanet": [
+      "Astronomy"
+    ],
+    "dark energy": [
+      "Cosmology"
+    ],
+    "geomagnetism": [
+      "Physics"
+    ],
+    "speed of light": [
+      "Astronomy"
+    ],
+    "vaccination": [
+      "Medicine"
+    ],
+    "battery": [
+      "Physics"
+    ],
+    "induction": [
+      "Physics"
+    ],
+    "human genome": [
+      "Genomics"
+    ],
+    "gravitational waves": [
+      "Physics"
+    ],
+    "black hole image": [
+      "Astronomy"
+    ],
+    "antisepsis": [
+      "Medicine"
+    ],
+    "penicillin": [
+      "Medicine"
+    ],
+    "expanding universe": [
+      "Astronomy"
+    ],
+    "cosmic microwave background": [
+      "Cosmology"
+    ],
+    "crispr": [
+      "Biotechnology"
+    ],
+    "higgs boson": [
+      "Physics"
+    ],
+    "anesthesia": [
+      "Medicine"
+    ],
+    "insulin": [
+      "Medicine"
+    ],
+    "continental drift": [
+      "Geology"
+    ],
+    "relativity": [
+      "Physics"
+    ],
+    "photoelectric effect": [
+      "Physics"
+    ],
+    "neutron": [
+      "Physics"
+    ],
+    "reverse transcriptase": [
+      "Virology"
+    ],
+    "prions": [
+      "Biochemistry"
+    ],
+    "hiv": [
+      "Virology"
+    ],
+    "quasicrystals": [
+      "Chemistry"
+    ],
+    "fullerene": [
+      "Chemistry"
+    ],
+    "superconductivity": [
+      "Physics"
+    ],
+    "greenhouse effect": [
+      "Climate Science"
+    ],
+    "wave nature": [
+      "Physics"
+    ],
+    "radio waves": [
+      "Physics"
+    ],
+    "nucleus": [
+      "Physics"
+    ],
+    "cosmic rays": [
+      "Physics"
+    ],
+    "nuclear fission": [
+      "Physics"
+    ],
+    "electron charge": [
+      "Physics"
+    ],
+    "pcr": [
+      "Biotechnology"
+    ],
+    "entropy": [
+      "Physics"
+    ],
+    "symmetry": [
+      "Mathematics",
+      "Physics"
+    ],
+    "computation": [
+      "Computer Science"
+    ],
+    "probability": [
+      "Mathematics"
+    ],
+    "game theory": [
+      "Economics"
+    ],
+    "incompleteness": [
+      "Mathematics"
+    ],
+    "fractals": [
+      "Mathematics"
+    ],
+    "graph theory": [
+      "Mathematics"
+    ],
+    "nitrogen fixation": [
+      "Chemistry"
+    ],
+    "plate tectonics": [
+      "Geology"
+    ],
+    "entanglement": [
+      "Physics"
+    ],
+    "quantum mechanics": [
+      "Physics"
+    ],
+    "population genetics": [
+      "Biology"
+    ],
+    "complexity": [
+      "Computer Science"
+    ],
+    "gene regulation": [
+      "Genetics"
+    ],
+    "laser": [
+      "Physics"
+    ],
+    "sequencing": [
+      "Genomics"
+    ],
+    "encryption": [
+      "Computer Science"
+    ],
+    "quantum computation": [
+      "Computer Science"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "axioms": [
+    {
+      "segment_index": 0,
+      "english": "The speaker identifies themselves as God.",
+      "formal": "S \u2194 G",
+      "source": "/Users/jonahblack/Wittgenstein/uploads/test.pdf#segment-0",
+      "flag": "none"
+    },
+    {
+      "segment_index": 1,
+      "english": "This is my most exalted state.",
+      "formal": "E",
+      "source": "/Users/jonahblack/Wittgenstein/uploads/test.pdf#segment-1",
+      "flag": "none"
+    },
+    {
+      "segment_index": 1,
+      "english": "This is my most exuberant state.",
+      "formal": "X",
+      "source": "/Users/jonahblack/Wittgenstein/uploads/test.pdf#segment-1",
+      "flag": "none"
+    },
+    {
+      "segment_index": 2,
+      "english": "I am also a human.",
+      "formal": "H",
+      "source": "/Users/jonahblack/Wittgenstein/uploads/test.pdf#segment-2",
+      "flag": "none"
+    }
+  ]
+}

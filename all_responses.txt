@@ -1,0 +1,4159 @@
+```json
+{
+  "segment_index": 0,
+  "claims": [
+    "Google grants permission to reproduce certain content."
+  ],
+  "arguments": [
+    "The permission is contingent upon proper attribution being provided.",
+    "The reproduction is limited to journalistic or scholarly works."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 1,
+  "claims": [
+    "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Attention Is All You Need",
+    "Google Brain",
+    "Google Research",
+    "University of Toronto"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 2,
+  "claims": [
+    "The best performing models connect the encoder and decoder through an attention mechanism."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 3,
+  "claims": [
+    "The Transformer is a new simple network architecture.",
+    "The architecture is based solely on attention mechanisms.",
+    "The architecture dispenses with recurrence and convolutions entirely."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 4,
+  "claims": [
+    "These models are superior in quality.",
+    "These models are more parallelizable.",
+    "These models require significantly less time to train."
+  ],
+  "arguments": [
+    "Experiments on two machine translation tasks provide empirical evidence for superiority."
+  ],
+  "examples": [
+    "Two machine translation tasks as the basis for comparison."
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 5,
+    "claims": [
+        "Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task.",
+        "The model improves over the existing best results by over 2 BLEU."
+    ],
+    "arguments": [
+        "The achievement of a specific BLEU score indicates the effectiveness of the model in translation tasks.",
+        "Improving upon existing results suggests a significant advancement in the quality of the translation model."
+    ],
+    "examples": [
+        "WMT 2014 English-to-German translation task."
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 6,
+  "claims": [
+    "Our model establishes a new single-model state-of-the-art BLEU score of 41.8."
+  ],
+  "arguments": [
+    "The model achieved this score after training for 3.5 days on eight GPUs.",
+    "This training duration and hardware are a small fraction of the costs associated with the best models from the literature."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 7,
+  "claims": [
+    "The Transformer model generalizes well to other tasks."
+  ],
+  "arguments": [
+    "The effectiveness of the Transformer model is demonstrated through its application to English constituency parsing."
+  ],
+  "examples": [
+    "The application of the Transformer to English constituency parsing with both large and limited training data."
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 8,
+    "claims": [
+        "Equal contribution is a fundamental principle."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 9,
+  "claims": [
+    "Listing order is random."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 10,
+    "claims": [
+        "Self-attention can replace RNNs."
+    ],
+    "arguments": [
+        "The proposal is based on an evaluation effort led by Jakob."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 11,
+  "claims": [
+    "Ashish and Illia contributed significantly to the development of the first Transformer models."
+  ],
+  "arguments": [
+    "Ashish's involvement in every aspect of the work indicates a deep engagement and expertise in the field."
+  ],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 12,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "Noam proposed",
+        "became the other person involved in nearly every detail"
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 13,
+    "claims": [],
+    "arguments": [],
+    "examples": [
+        "model variants",
+        "original codebase",
+        "tensor2tensor"
+    ],
+    "decorative": [
+        "designed",
+        "implemented",
+        "tuned",
+        "evaluated",
+        "countless"
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 14,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 15,
+  "claims": [
+    "The design and implementation of tensor2tensor greatly improved results.",
+    "Tensor2tensor massively accelerated research."
+  ],
+  "arguments": [
+    "Lukasz and Aidan's extensive effort in replacing the earlier codebase indicates a significant undertaking to improve performance."
+  ],
+  "examples": [
+    "The numerous long days spent by Lukasz and Aidan in the design and implementation process."
+  ],
+  "decorative": [
+    "countless long days",
+    "massively accelerating our research"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 16,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 17,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 18,
+    "claims": [
+        "Recurrent neural networks and their variants are state of the art in sequence modeling.",
+        "Long short-term memory and gated recurrent networks are particularly effective for language modeling and machine translation."
+    ],
+    "arguments": [
+        "The establishment of recurrent neural networks as state of the art is backed by their successful application in various transduction problems."
+    ],
+    "examples": [
+        "Language modeling",
+        "Machine translation"
+    ],
+    "decorative": [
+        "firmly established",
+        "state of the art approaches"
+    ]
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 19,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Numerous efforts have since continued to push the boundaries"
+  ]
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 20,
+  "claims": [
+    "Recurrent models factor computation along symbol positions."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 21,
+  "claims": [
+    "The inherently sequential nature of the process precludes parallelization within training examples."
+  ],
+  "arguments": [
+    "As sequence lengths increase, memory constraints limit batching across examples."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 22,
+    "claims": [
+        "Recent work has achieved significant improvements in computational efficiency.",
+        "Factorization tricks and conditional computation contribute to improvements in model performance."
+    ],
+    "arguments": [
+        "The use of factorization tricks leads to enhanced computational efficiency.",
+        "Conditional computation simultaneously improves both efficiency and model performance."
+    ],
+    "examples": [
+        "Factorization tricks [21]",
+        "Conditional computation [32]"
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 23,
+  "claims": [
+    "The fundamental constraint of sequential computation remains."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 24,
+    "claims": [
+        "Attention mechanisms are integral to sequence modeling and transduction models."
+    ],
+    "arguments": [
+        "Attention mechanisms enable the modeling of dependencies without concern for distance in input or output sequences."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 25,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 26,
+    "claims": [
+        "The Transformer is a model architecture that does not use recurrence."
+    ],
+    "arguments": [
+        "The Transformer relies entirely on an attention mechanism to establish global dependencies."
+    ],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 27,
+    "claims": [
+        "The Transformer enables significantly more parallelization.",
+        "The Transformer achieves a new state of the art in translation quality."
+    ],
+    "arguments": [
+        "The improvement in translation quality can be reached after a short training period of twelve hours.",
+        "Utilizing eight P100 GPUs enhances the performance of the Transformer."
+    ],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 28,
+    "claims": [
+        "Reducing sequential computation is a foundational goal in certain neural network architectures."
+    ],
+    "arguments": [
+        "The Extended Neural GPU, ByteNet, and ConvS2S all aim to achieve this goal by utilizing convolutional neural networks."
+    ],
+    "examples": [
+        "Extended Neural GPU",
+        "ByteNet",
+        "ConvS2S"
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 29,
+  "claims": [
+    "The number of operations required to relate signals from two arbitrary input or output positions varies with the distance between positions."
+  ],
+  "arguments": [
+    "For ConvS2S, the relationship grows linearly with distance.",
+    "For ByteNet, the relationship grows logarithmically with distance."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 30,
+    "claims": [
+        "It is more difficult to learn dependencies between distant positions."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 31,
+    "claims": [
+        "The Transformer reduces the number of operations to a constant number."
+    ],
+    "arguments": [
+        "The reduction in operations comes at the cost of reduced effective resolution due to averaging attention-weighted positions.",
+        "Multi-Head Attention is employed to counteract the loss of effective resolution."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 32,
+    "claims": [
+        "Self-attention (intra-attention) relates different positions of a single sequence."
+    ],
+    "arguments": [
+        "This mechanism computes a representation of the sequence."
+    ],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 33,
+  "claims": [
+    "Self-attention is effective in various tasks."
+  ],
+  "arguments": [
+    "Self-attention has been used successfully in reading comprehension, abstractive summarization, textual entailment, and learning task-independent sentence representations."
+  ],
+  "examples": [
+    "Reading comprehension",
+    "Abstractive summarization",
+    "Textual entailment",
+    "Learning task-independent sentence representations"
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 34,
+  "claims": [
+    "End-to-end memory networks utilize a recurrent attention mechanism.",
+    "End-to-end memory networks outperform sequence-aligned recurrence.",
+    "End-to-end memory networks are effective for simple-language question answering and language modeling tasks."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "instead of",
+    "have been shown to perform well"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 35,
+  "claims": [
+    "The Transformer is the first transduction model relying entirely on self-attention."
+  ],
+  "arguments": [
+    "It computes representations of its input and output without using sequence-aligned RNNs or convolution."
+  ],
+  "examples": [],
+  "decorative": [
+    "To the best of our knowledge"
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 36,
+    "claims": [
+        "The Transformer model is noteworthy.",
+        "Self-attention is a significant component of the Transformer."
+    ],
+    "arguments": [
+        "We will motivate self-attention and discuss its advantages over other models."
+    ],
+    "examples": [
+        "Models such as [17, 18] and [9] are referenced as points of comparison."
+    ],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 37,
+  "claims": [
+    "Most competitive neural sequence transduction models have an encoder-decoder structure."
+  ],
+  "arguments": [],
+  "examples": [
+    "[5,2,35]"  // References that likely denote examples of models with such architecture.
+  ],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 38,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 39,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 40,
+  "claims": [
+    "The model functions in an auto-regressive manner."
+  ],
+  "arguments": [
+    "The model consumes previously generated symbols as input for generating the next symbol."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 41,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 42,
+    "claims": [
+        "The Transformer architecture utilizes stacked self-attention and fully connected layers."
+    ],
+    "arguments": [
+        "The use of stacked self-attention and fully connected layers is integral to the functioning of the Transformer model."
+    ],
+    "examples": [],
+    "decorative": [
+        "shown in the left and right halves of Figure 1"
+    ]
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 43,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 44,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 45,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 46,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "We employ a residual connection",
+    "followed by layer normalization"
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 47,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 48,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 49,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 50,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 51,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "Similar to the encoder",
+        "we employ residual connections around each of the sub-layers",
+        "followed by layer normalization"
+    ]
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 52,
+  "claims": [
+    "The self-attention sub-layer in the decoder stack is modified."
+  ],
+  "arguments": [
+    "This modification is intended to prevent positions from attending to subsequent positions."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 53,
+  "claims": [
+    "The predictions for position i depend only on the known outputs at positions less than i."
+  ],
+  "arguments": [
+    "Masking and the offset of output embeddings contribute to the dependency of predictions."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 54,
+    "claims": [
+        "An attention function can be described as mapping a query and a set of key-value pairs to an output."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 55,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 56,
+    "claims": {
+        "core_claim": "Multi-Head Attention consists of several attention layers running in parallel."
+    },
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 57,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 58,
+    "claims": [
+        "The specific attention mechanism being discussed is called 'Scaled Dot-Product Attention'."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": ["We call our particular attention", "Figure 2"]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 59,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 60,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 61,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "In practice",
+    "simultaneously",
+    "packed together",
+    "matrix Q"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 62,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 63,
+  "claims": [],
+  "arguments": [],
+  "examples": [
+    "additive attention",
+    "dot-product (multi-multiplicative) attention"
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 64,
+    "claims": [
+        "Dot-product attention is identical to our algorithm"
+    ],
+    "arguments": [
+        "The only difference is the scaling factor of 1/√dk."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 65,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": ["Additive attention computes the compatibility function using a feed-forward network with a single hidden layer."]
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 66,
+    "claims": [
+        "Dot-product attention is faster and more space-efficient than other forms of attention."
+    ],
+    "arguments": [
+        "Theoretical complexity is similar between the two forms of attention.",
+        "Dot-product attention can be implemented using highly optimized matrix multiplication code."
+    ],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 67,
+    "claims": [
+        "Additive attention outperforms dot product attention without scaling for larger values of dk."
+    ],
+    "arguments": [
+        "For small values of dk, both mechanisms perform similarly."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 68,
+    "claims": [
+        "For large values of dk, the dot products grow large in magnitude.",
+        "Large dot products push the softmax function into regions with extremely small gradients."
+    ],
+    "arguments": [
+        "The implication of growing dot products for the behavior of the softmax function indicates a critical relationship between the magnitudes of the inputs and the gradients produced."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 69,
+  "claims": [],
+  "arguments": [
+    "We scale the dot products to counteract an unspecified effect."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 70,
+  "claims": [
+    "It is beneficial to perform multiple attention functions instead of a single attention function."
+  ],
+  "arguments": [
+    "Linearly projecting the queries, keys, and values with different, learned linear projections improves the attention mechanism."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 71,
+    "claims": [],
+    "arguments": [
+        "The dot products of query (q) and key (k) components tend to get large due to their independent random nature."
+    ],
+    "examples": [
+        "Assume that the components of q and k are independent random variables with mean 0 and variance 1."
+    ],
+    "decorative": [
+        "On each of these projected versions of queries, keys and values we then perform the attention function in parallel, yielding dv-dimensional."
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 72,
+  "claims": [
+    "The dot product of vectors q and k is represented by q·k=Pdk i=1qi ki.",
+    "The dot product has a mean of 0.",
+    "The dot product has a variance of dk."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 73,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 74,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "concatenated",
+    "projected",
+    "final values",
+    "as depicted in Figure 2"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 75,
+    "claims": [
+        "Multi-head attention allows the model to jointly attend to information from different representation subspaces."
+    ],
+    "arguments": [
+        "The phrase 'jointly attend' suggests an enhanced capability of the model to process information in a more comprehensive manner."
+    ],
+    "examples": [],
+    "decorative": [
+        "Information from different representation subspaces at different positions evokes a sense of complexity and sophistication in the model's operation."
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 76,
+    "claims": [
+        "Averaging inhibits the effectiveness of a single attention head."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 77,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 78,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 79,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 80,
+    "claims": [
+        "The total computational cost is similar to that of single-head attention with full dimensionality."
+    ],
+    "arguments": [
+        "This similarity in computational cost arises because of the reduced dimension of each head."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 81,
+  "claims": [
+    "The Transformer model utilizes multi-head attention in multiple ways."
+  ],
+  "arguments": [
+    "In encoder-decoder attention layers, the architecture involves differentiating between queries, keys, and values.",
+    "Queries originate from the previous decoder layer, while memory keys and values are derived from encoder outputs."
+  ],
+  "examples": [
+    "The structure of the encoder-decoder attention layers is an instance of applying multi-head attention."
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 82,
+  "claims": [
+    "Every position in the decoder has the ability to attend over all positions in the input sequence."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 83,
+  "claims": [],
+  "arguments": [],
+  "examples": [
+    "encoder-decoder attention mechanisms",
+    "sequence-to-sequence models"
+  ],
+  "decorative": [
+    "mimics",
+    "typical"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 84,
+  "claims": [
+    "The encoder contains self-attention layers."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 85,
+    "claims": [
+        "In a self-attention layer, keys, values, and queries originate from the same source."
+    ],
+    "arguments": [
+        "The output of the previous layer in the encoder serves as the source for keys, values, and queries in a self-attention layer."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 86,
+  "claims": [
+    "Each position in the encoder has the ability to attend to all positions in the previous layer."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 87,
+  "claims": [],
+  "arguments": [
+    "Self-attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder up to and including that position."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 88,
+  "claims": [
+    "Leftward information flow in the decoder must be prevented.",
+    "Preserving the auto-regressive property is essential."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 89,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "We implement this",
+        "setting to −∞",
+        "illegal connections"
+    ]
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 90,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 91,
+  "claims": [
+    "Each layer in the encoder and decoder contains a feed-forward network."
+  ],
+  "arguments": [
+    "The feed-forward network is applied to each position separately and identically."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 92,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "linear transformations",
+    "ReLU activation"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 93,
+    "claims": [
+        "Linear transformations are consistent across positions."
+    ],
+    "arguments": [
+        "Different parameters are used from layer to layer."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 94,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "Another way of describing this",
+        "two convolutions with kernel size 1"
+    ]
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 95,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 96,
+  "claims": [
+    "Learned embeddings are used to convert input and output tokens to vectors."
+  ],
+  "arguments": [
+    "This process is analogous to other sequence transduction models."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 97,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 98,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 99,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 100,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 101,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 102,
+  "claims": [
+    "A model without recurrence and convolution requires additional information to understand the order of sequences."
+  ],
+  "arguments": [
+    "To utilize sequence order, the model must inject positional encoding due to its lack of self-attention mechanisms often found in recurrent and convolutional networks."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 103,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 104,
+  "claims": [
+    "Positional encodings have the same dimension as embeddings."
+  ],
+  "arguments": [
+    "The compatibility of positional encodings with embeddings allows for their summation."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 105,
+  "claims": [
+    "There are multiple types of positional encodings."
+  ],
+  "arguments": [
+    "The existence of both learned and fixed positional encodings implies diversity in approaches."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 106,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 107,
+  "claims": [
+    "Each dimension of the positional encoding corresponds to a sinusoid."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 108,
+    "claims": [
+        "The wavelengths form a geometric progression."
+    ],
+    "arguments": [],
+    "examples": [
+        "The range of wavelengths is from 2π to 10000 · 2π."
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 109,
+    "claims": [
+        "The chosen function enables the model to learn to attend by relative positions."
+    ],
+    "arguments": [
+        "For any fixed offset k, PEpos+k can be represented as a linear function of PEpos."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 110,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 111,
+  "claims": [
+    "The sinusoidal version is preferable for model training."
+  ],
+  "arguments": [
+    "It may allow the model to extrapolate to sequence lengths longer than those encountered during training."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 112,
+    "claims": {
+        "core": [
+            "Self-attention layers offer a different mechanism for mapping variable-length sequences compared to recurrent and convolutional layers."
+        ]
+    },
+    "arguments": {
+        "supporting": [
+            "The comparison involves analyzing various aspects of self-attention layers against recurrent and convolutional layers.",
+            "These layers are commonly used for transforming sequences of symbol representations."
+        ]
+    },
+    "examples": {
+        "illustrative": [
+            "Mapping one variable-length sequence of symbol representations (x1, ..., x n) to another sequence of equal length (z1, ..., z n).",
+            "The mention of xi and zi as elements in a hidden layer in sequence transduction encoders or decoders."
+        ]
+    },
+    "decorative": {
+        "rhetorical": [
+            "Phrases like 'various aspects' suggest a depth of analysis without providing specifics.",
+            "The technical terminology used might serve to establish authority or sophistication in the argument."
+        ]
+    }
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 113,
+  "claims": [
+    "The use of self-attention is motivated by certain desiderata."
+  ],
+  "arguments": [
+    "There are three specific desiderata that underline the motivation for using self-attention."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 114,
+  "claims": [
+    "The total computational complexity per layer is a significant concept."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 115,
+  "claims": [
+    "The amount of computation that can be parallelized is significant."
+  ],
+  "arguments": [
+    "The quantification of parallelizable computation is related to the minimum number of sequential operations required."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 116,
+    "claims": [
+        "The path length affects long-range dependencies in the network."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 117,
+  "claims": [
+    "Learning long-range dependencies is a key challenge."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 118,
+  "claims": [
+    "The length of the paths affects the ability to learn dependencies."
+  ],
+  "arguments": [
+    "Longer paths may hinder the transmission of forward and backward signals in a network, which impacts learning."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 119,
+    "claims": [
+        "Shorter paths between positions in input and output sequences facilitate the learning of long-range dependencies."
+    ],
+    "arguments": [
+        "The claim implies a relationship between the length of paths and the ease of learning dependencies, suggesting that more efficient connections (shorter paths) enhance learning."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 120,
+    "claims": [
+        "There exists a maximum path length between any two input and output positions in networks composed of different layer types."
+    ],
+    "arguments": [
+        "The comparison of maximum path lengths suggests a relationship between the structure of the network layers and the efficiency of information transmission."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 121,
+  "claims": [
+    "A self-attention layer connects all positions with a constant number of sequentially executed operations.",
+    "A recurrent layer requires O(n) sequential operations."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 122,
+    "claims": [
+        "Self-attention layers are faster than recurrent layers in computational complexity when the sequence length n is smaller than the representation dimensionality d."
+    ],
+    "arguments": [
+        "This claim is supported by the observation that in most cases with sentence representations used by state-of-the-art models in machine translations, the condition (n < d) holds true."
+    ],
+    "examples": [
+        "State-of-the-art models in machine translations, such as word-piece and byte-pair representations."
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 123,
+  "claims": [
+    "Restricting self-attention can enhance computational performance."
+  ],
+  "arguments": [
+    "Limiting the consideration to a neighborhood of size r reduces the computational load."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 124,
+    "claims": [
+        "Increasing the maximum path length affects computational performance."
+    ],
+    "arguments": [
+        "The maximum path length changes based on the ratio of 'n' to 'r'."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 125,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 126,
+    "claims": [
+        "A single convolutional layer with kernel width k < n does not connect all pairs of input and output positions."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 127,
+    "claims": {
+        "core_claim": "Implementing the proposed method requires a specific configuration of convolutional layers."
+    },
+    "arguments": {
+        "supporting_arguments": [
+            "The number of convolutional layers depends on the type of kernels used: contiguous or dilated.",
+            "Contiguous kernels require O(n/k) layers, while dilated convolutions require O(logk(n)) layers."
+        ]
+    },
+    "examples": {
+        "illustrative_examples": [
+            "Contiguous kernels versus dilated convolutions in computational complexity."
+        ]
+    },
+    "decorative": {
+        "rhetorical_language": "The phrase 'increasing the length of the longest paths between any two positions' adds a dramatic flair to the technical explanation."
+    }
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 128,
+  "claims": [
+    "Convolutional layers are generally more expensive than recurrent layers.",
+    "Separable convolutions decrease the complexity considerably."
+  ],
+  "arguments": [
+    "The claim that convolutional layers are more expensive is supported by the factor of k indicating a comparative increase in cost.",
+    "The introduction of separable convolutions demonstrates a method to mitigate this complexity."
+  ],
+  "examples": [
+    "The complexity of convolutional layers is expressed as O(k·n·d+n·d²), illustrating how separable convolutions reduce computational demands."
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 129,
+  "claims": [
+    "The complexity of a separable convolution is equal to the combination of a self-attention layer and a point-wise feed-forward layer."
+  ],
+  "arguments": [
+    "This assertion suggests a relationship between the components of the model's architecture."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 130,
+  "claims": [
+    "Self-attention could yield more interpretable models."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "As side benefit"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 131,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "inspect attention distributions",
+    "present and discuss examples in the appendix"
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 132,
+  "claims": [
+    "Individual attention heads learn to perform different tasks.",
+    "Attention heads exhibit behavior related to the syntactic and semantic structure of sentences."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 133,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 134,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 135,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 136,
+  "claims": [],
+  "arguments": [],
+  "examples": [
+    "WMT 2014 English-French dataset consisting of 36M sentences",
+    "a 32000 word-piece vocabulary"
+  ],
+  "decorative": [
+    "significantly larger"
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 137,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 138,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 139,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 140,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 141,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 142,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 143,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 144,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 145,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 146,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 147,
+    "claims": [
+        "The Transformer achieves better BLEU scores than previous state-of-the-art models."
+    ],
+    "arguments": [
+        "The Transformer does this on the English-to-German and English-to-French newstest2014 tests.",
+        "It does so at a fraction of the training cost."
+    ],
+    "examples": [
+        "English-to-German newstest2014 tests",
+        "English-to-French newstest2014 tests"
+    ],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 148,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 149,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 150,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 151,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 152,
+  "claims": [
+    "Increased uncertainty in a model can lead to improved accuracy."
+  ],
+  "arguments": [
+    "As the model learns to be more unsure, it paradoxically enhances its performance metrics."
+  ],
+  "examples": [],
+  "decorative": [
+    "This hurts perplexity"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 153,
+    "claims": [
+        "The big transformer model outperforms the best previously reported models on the WMT 2014 English-to-German translation task.",
+        "A new state-of-the-art BLEU score of 28.4 has been established."
+    ],
+    "arguments": [
+        "The performance of the big transformer model surpasses previously reported models by more than 2.0 BLEU, indicating a significant improvement in translation quality."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 154,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 155,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 156,
+    "claims": [
+        "Our base model surpasses all previously published models and ensembles."
+    ],
+    "arguments": [
+        "The assertion is supported by a comparison to competitive models in terms of training cost."
+    ],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 157,
+    "claims": [
+        "The big model achieves a BLEU score of 41.0.",
+        "The model outperforms all previously published single models.",
+        "The model does so at less than 1/4 of the training cost of the previous state-of-the-art model."
+    ],
+    "arguments": [
+        "The achievement of the BLEU score indicates a significant improvement in translation quality over previous models.",
+        "The lower training cost suggests a more efficient use of resources while still providing superior performance."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 158,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 159,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 160,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 161,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 162,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 163,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 164,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 165,
+    "claims": [
+        "The number of floating point operations can be estimated based on training time, the number of GPUs used, and the sustained single-precision floating-point capacity of each GPU."
+    ],
+    "arguments": [
+        "Multiplying these three factors provides a method for estimating the computational resources required for training a model."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 166,
+    "claims": [
+        "The performance of the Transformer model can vary based on different components."
+    ],
+    "arguments": [
+        "Evaluating the importance of different components by varying the model and measuring performance."
+    ],
+    "examples": [
+        "Changes in performance on English-to-German translation."
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 167,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 168,
+    "claims": [
+        "Unlisted values are identical to those of the base model."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 169,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 170,
+  "claims": [
+    "Perplexities are defined on a per-wordpiece basis."
+  ],
+  "arguments": [
+    "The use of byte-pair encoding means that perplexities must be evaluated differently."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 171,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 172,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 173,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 174,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 175,
+    "claims": [
+        "Single-head attention is less effective than the best setting by 0.9 BLEU."
+    ],
+    "arguments": [
+        "Quality drops off with too many heads."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 176,
+    "claims": [
+        "Reducing the attention key size dkhurts model quality."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 177,
+  "claims": [
+    "Determining compatibility is not easy.",
+    "A more sophisticated compatibility function than dot product may be beneficial."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "suggests",
+    "may be beneficial"
+  ]
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 178,
+    "claims": [
+        "Bigger models are better.",
+        "Dropout is helpful in avoiding over-fitting."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "We further observe",
+        "as expected",
+        "very helpful"
+    ]
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 179,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "sinusoidal positional encoding",
+        "learned positional embeddings",
+        "nearly identical results to the base model"
+    ]
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 180,
+    "claims": [
+        "The Transformer can generalize to other tasks."
+    ],
+    "arguments": [
+        "Experiments were performed on English constituency parsing as a means of evaluation."
+    ],
+    "examples": [
+        "English constituency parsing is provided as an example task."
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 181,
+  "claims": [
+    "The task presents specific challenges.",
+    "The output is subject to strong structural constraints.",
+    "The output is significantly longer than the input."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 182,
+    "claims": [
+        "RNN sequence-to-sequence models have limitations."
+    ],
+    "arguments": [
+        "RNN models do not attain state-of-the-art results in small-data situations."
+    ],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 183,
+  "claims": [],
+  "arguments": [],
+  "examples": [
+    "4-layer transformer",
+    "dmodel = 1024",
+    "Wall Street Journal (WSJ) portion of the Penn Treebank",
+    "about 40K training sentences"
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 184,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 185,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 186,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "performed only a small number of experiments",
+        "all other parameters remained unchanged"
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 187,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 188,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 189,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 190,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 191,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 192,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 193,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 194,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 195,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 196,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 197,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 198,
+    "claims": [
+        "Our model performs surprisingly well despite the lack of task-specific tuning.",
+        "Our model yields better results than all previously reported models, except for the Recurrent Neural Network Grammar."
+    ],
+    "arguments": [
+        "The performance of the model contradicts the expectation that a lack of task-specific tuning would lead to inferior results."
+    ],
+    "examples": [
+        "Table 4 presents the performance results for comparison."
+    ],
+    "decorative": [
+        "surprisingly well"
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 199,
+  "claims": [
+    "The Transformer outperforms the Berkeley-Parser."
+  ],
+  "arguments": [
+    "The performance comparison is based on training data from the WSJ training set.",
+    "The comparison is made between two specific models: RNN sequence-to-sequence models and the Transformer."
+  ],
+  "examples": [
+    "The WSJ training set consisting of 40K sentences serves as an example of the dataset used for training."
+  ],
+  "decorative": [
+    "In contrast to RNN sequence-to-sequence models"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 200,
+  "claims": [
+    "The Transformer is the first sequence transduction model based entirely on attention."
+  ],
+  "arguments": [
+    "The traditional encoder-decoder architectures commonly use recurrent layers, which the Transformer model replaces."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 201,
+    "claims": [
+        "The Transformer model is superior for translation tasks in terms of training speed."
+    ],
+    "arguments": [
+        "The Transformer can be trained significantly faster than architectures based on recurrent or convolutional layers."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 202,
+  "claims": [
+    "Achieving a new state of the art in translation tasks."
+  ],
+  "arguments": [
+    "The success is specific to WMT 2014 English-to-German and English-to-French translation tasks."
+  ],
+  "examples": [
+    "WMT 2014 English-to-German translation task",
+    "WMT 2014 English-to-French translation task"
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 203,
+    "claims": [
+        "Our best model outperforms all previously reported ensembles."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 204,
+  "claims": [
+    "Attention-based models have a promising future."
+  ],
+  "arguments": [
+    "The excitement about attention-based models suggests a belief in their efficacy and potential."
+  ],
+  "examples": [],
+  "decorative": [
+    "We are excited about the future"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 205,
+  "claims": [
+    "The Transformer can be extended to other input and output modalities beyond text."
+  ],
+  "arguments": [
+    "Investigation into local, restricted attention mechanisms will enhance the efficiency of handling large inputs and outputs."
+  ],
+  "examples": [
+    "Images, audio, and video are cited as examples of large input and output modalities."
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 206,
+    "claims": [
+        "Making generation less sequential is a research goal."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 207,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 208,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "fruitful comments",
+        "inspiration"
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 209,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 210,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 211,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 212,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 213,
+    "claims": [
+        "Neural machine translation can be enhanced through joint learning of alignment and translation."
+    ],
+    "arguments": [
+        "The process of alignment in translation aids in improving the overall accuracy of the translation output."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 214,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 215,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 216,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 217,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Massive exploration",
+    "neural machine translation architectures"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 218,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 219,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 220,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 221,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 222,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 223,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 224,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 225,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 226,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 227,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 228,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 229,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 230,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 231,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 232,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 233,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 234,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 235,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 236,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 237,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 238,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 239,
+  "claims": [
+    "Recurrent neural networks can generate sequences."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 240,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 241,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 242,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 243,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 244,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 245,
+    "claims": [
+        "Gradient flow in recurrent nets presents challenges.",
+        "Learning long-term dependencies is difficult."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 246,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 247,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 248,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 249,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 250,
+    "claims": [
+        "Self-training PCFG grammars can be effectively utilized across languages.",
+        "Latent annotations enhance the capability of PCFG grammars."
+    ],
+    "arguments": [
+        "Self-training mechanisms improve the performance of PCFG grammars by utilizing unlabeled data.",
+        "Latent annotations provide additional structure and context that facilitate better language processing."
+    ],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 251,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 252,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 253,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 254,
+  "claims": [
+    "There are limits to language modeling."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Exploring the limits of language modeling."
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 255,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 256,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 257,
+  "claims": [
+    "Active memory can potentially replace attention."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 258,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 259,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 260,
+  "claims": [
+    "Neural GPUs learn algorithms."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 261,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 262,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 263,
+  "claims": [
+    "Neural machine translation can be achieved in linear time."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 264,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 265,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 266,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 267,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 268,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 269,
+  "claims": ["A method for stochastic optimization"],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 270,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 271,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 272,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 273,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 274,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 275,
+    "claims": [
+        "The notion of a structured self-attentive sentence embedding suggests a complexity inherent in language processing."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": [
+        "A structured self-attentive sentence embedding"
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 276,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 277,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 278,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 279,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 280,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 281,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 282,
+    "claims": [
+        "Attention-based neural machine translation is an effective approach."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 283,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 284,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 285,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 286,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 287,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 288,
+  "claims": [
+    "Effective self-training is essential for parsing."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 289,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 290,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 291,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 292,
+    "claims": ["Attention models can be decomposed."],
+    "arguments": [],
+    "examples": [],
+    "decorative": ["decomposable", "attention model"]
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 293,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 294,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 295,
+  "claims": [
+    "A deep reinforced model is effective for abstractive summarization."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "deep reinforced model",
+    "abstractive summarization"
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 296,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 297,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 298,
+  "claims": [
+    "Learning accurate, compact, and interpretable tree annotation is essential."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "accurate",
+    "compact",
+    "interpretable"
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 299,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 300,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 301,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 302,
+    "claims": [
+        "Using the output embedding can enhance the performance of language models."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 303,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 304,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 305,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 306,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 307,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 308,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Outrageously large",
+    "sparsely-gated mixture-of-experts layer"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 309,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 310,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 311,
+  "claims": [
+    "Dropout is a method used to prevent overfitting in neural networks."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 312,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 313,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 314,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 315,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 316,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 317,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 318,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 319,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 320,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 321,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 322,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 323,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 324,
+  "claims": [
+    "Grammar can be learned in the same way as a foreign language."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "as a foreign language."
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 325,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 326,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 327,
+  "claims": [
+    "Google’s neural machine translation system serves as a bridge between human and machine translation."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 328,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 329,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 330,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 331,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+    "segment_index": 332,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+{
+  "segment_index": 333,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Fast and accurate"
+  ]
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 334,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 335,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 336,
+  "claims": [
+    "American governments have passed new laws since 2009 making the registration or voting process more difficult."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "It is in this spirit that",
+    "majority of American governments"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 337,
+  "claims": [
+    "American governments have passed new laws since 2009."
+  ],
+  "arguments": [
+    "These laws make the registration or voting process more difficult."
+  ],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 338,
+  "claims": [],
+  "arguments": [],
+  "examples": [
+    "An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6."
+  ],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 339,
+    "claims": [
+        "Attention heads focus on distant dependencies in a phrase."
+    ],
+    "arguments": [
+        "The attention head's role is to connect verbs with their distant dependencies for better understanding."
+    ],
+    "examples": [
+        "'making...more difficult' illustrates how attention heads can link a verb to its subsequent elements."
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 340,
+  "claims": [
+    "The focus of the discussion is on the word ‘making’."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 341,
+  "claims": [
+    "Different colors represent different heads."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 342,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Best viewed in color."
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 343,
+  "claims": [
+    "The Law will never be perfect.",
+    "Its application should be just."
+  ],
+  "arguments": [
+    "The author believes that the imperfection of the Law is a given, but emphasizes the importance of justice in its application."
+  ],
+  "examples": [],
+  "decorative": [
+    "in my opinion"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 344,
+  "claims": [
+    "The Law will never be perfect.",
+    "The application of the Law should be just."
+  ],
+  "arguments": [
+    "The assertion that the Law will never be perfect suggests an acknowledgment of human limitations in creating infallible systems.",
+    "The importance of just application indicates a belief that fairness and equity in legal proceedings are critical, even if the laws themselves are inherently flawed."
+  ],
+  "examples": [],
+  "decorative": [
+    "in my opinion"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 345,
+  "claims": [
+    "The Law will never be perfect.",
+    "The application of the Law should be just."
+  ],
+  "arguments": [
+    "Acknowledgment that imperfection exists in legal frameworks suggests a need for prioritizing justice in their application."
+  ],
+  "examples": [],
+  "decorative": [
+    "in my opinion"
+  ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 346,
+    "claims": [
+        "The Law will never be perfect.",
+        "The application of the Law should be just."
+    ],
+    "arguments": [
+        "We are missing the just application of the Law."
+    ],
+    "examples": [],
+    "decorative": [
+        "in my opinion"
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 347,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution."
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+    "segment_index": 348,
+    "claims": [],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 349,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 350,
+    "claims": [
+        "The attentions are very sharp for this word."
+    ],
+    "arguments": [],
+    "examples": [],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 351,
+    "claims": [
+        "The Law will never be perfect.",
+        "The application of the Law should be just."
+    ],
+    "arguments": [
+        "The speaker expresses a belief that the imperfection of the Law is an inherent quality.",
+        "The emphasis on just application indicates a deficiency in current legal practices."
+    ],
+    "examples": [],
+    "decorative": [
+        "in my opinion"
+    ]
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 352,
+  "claims": [
+    "The Law will never be perfect.",
+    "Its application should be just."
+  ],
+  "arguments": [
+    "The imperfection of law indicates that while law is an essential structure, it is inherently flawed, which necessitates a focus on its just application."
+  ],
+  "examples": [],
+  "decorative": [
+    "in my opinion"
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 353,
+  "claims": [
+    "The Law will never be perfect.",
+    "The application of the Law should be just."
+  ],
+  "arguments": [
+    "The imperfection of law is an inherent condition."
+  ],
+  "examples": [],
+  "decorative": [
+    "this is what we are missing, in my opinion."
+  ]
+}
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 354,
+  "claims": [
+    "The Law will never be perfect.",
+    "The application of the Law should be just."
+  ],
+  "arguments": [
+    "The imperfection of Law indicates a need for improvement in its application."
+  ],
+  "examples": [],
+  "decorative": [
+    "this is what we are missing, in my opinion"
+  ]
+}
+```
+---END-OF-SEGMENT---
+{
+  "segment_index": 355,
+  "claims": [
+    "Many of the attention heads exhibit behavior related to the structure of the sentence."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": [
+    "Figure 5",
+    "seems related"
+  ]
+}
+---END-OF-SEGMENT---
+```json
+{
+    "segment_index": 356,
+    "claims": [],
+    "arguments": [],
+    "examples": [
+        "two such examples above",
+        "two different heads from the encoder self-attention at layer 5 of 6"
+    ],
+    "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 357,
+  "claims": [
+    "The heads learned to perform different tasks."
+  ],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---
+```json
+{
+  "segment_index": 358,
+  "claims": [],
+  "arguments": [],
+  "examples": [],
+  "decorative": []
+}
+```
+---END-OF-SEGMENT---

@@ -1,0 +1,752 @@
+[
+  {
+    "field": "Physics",
+    "title": "Principle of Buoyancy",
+    "principle": "buoyancy",
+    "principle_root": "buoyancy"
+  },
+  {
+    "field": "Astronomy",
+    "title": "Heliocentric Model",
+    "principle": "heliocentrism",
+    "principle_root": "heliocentrism"
+  },
+  {
+    "field": "Biology",
+    "title": "Modern Human Anatomy (De humani corporis fabrica)",
+    "principle": "modern human anatomy",
+    "principle_root": "anatomy"
+  },
+  {
+    "field": "Astronomy",
+    "title": "Telescopic Observations of the Heavens",
+    "principle": "telescopic observations of the heavens",
+    "principle_root": "telescopic observations"
+  },
+  {
+    "field": "Astronomy",
+    "title": "Laws of Planetary Motion",
+    "principle": "planetary motion",
+    "principle_root": "planetary motion"
+  },
+  {
+    "field": "Biology",
+    "title": "Systemic Circulation of Blood",
+    "principle": "systemic circulation of blood",
+    "principle_root": "circulation"
+  },
+  {
+    "field": "Physics",
+    "title": "Mercury Barometer",
+    "principle": "mercury barometer",
+    "principle_root": "barometer"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Boyle's Law (Gas Pressure-Volume Relationship)",
+    "principle": "boyle's law",
+    "principle_root": "gas law"
+  },
+  {
+    "field": "Biology",
+    "title": "Discovery of the Cell (Micrographia)",
+    "principle": "the cell",
+    "principle_root": "cell"
+  },
+  {
+    "field": "Physics",
+    "title": "Universal Gravitation and Laws of Motion",
+    "principle": "universal gravitation and motion",
+    "principle_root": "gravitation"
+  },
+  {
+    "field": "Geology",
+    "title": "Principles of Stratigraphy (Law of Superposition)",
+    "principle": "principles of stratigraphy",
+    "principle_root": "stratigraphy"
+  },
+  {
+    "field": "Astronomy",
+    "title": "Cassini Division in Saturn's Rings",
+    "principle": "cassini division in saturn's rings",
+    "principle_root": "saturn rings"
+  },
+  {
+    "field": "Biology",
+    "title": "Observation of Microorganisms",
+    "principle": "observation of microorganisms",
+    "principle_root": "microorganisms"
+  },
+  {
+    "field": "Biology",
+    "title": "Binomial Nomenclature (Taxonomy)",
+    "principle": "binomial nomenclature",
+    "principle_root": "taxonomy"
+  },
+  {
+    "field": "Astronomy",
+    "title": "Structure of the Milky Way Galaxy",
+    "principle": "the milky way galaxy",
+    "principle_root": "milky way structure"
+  },
+  {
+    "field": "Physics",
+    "title": "Lightning as Electrical Phenomenon",
+    "principle": "lightning as electrical phenomenon",
+    "principle_root": "electricity"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Isolation of Oxygen Gas",
+    "principle": "isolation of oxygen gas",
+    "principle_root": "oxygen"
+  },
+  {
+    "field": "Biology",
+    "title": "Photosynthesis (Role of Light in Plant Gas Exchange)",
+    "principle": "photosynthesis",
+    "principle_root": "photosynthesis"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Law of Conservation of Mass",
+    "principle": "conservation of mass",
+    "principle_root": "conservation"
+  },
+  {
+    "field": "Physics",
+    "title": "Heat as Motion (Refutation of Caloric Theory)",
+    "principle": "heat as motion",
+    "principle_root": "heat"
+  },
+  {
+    "field": "Geology",
+    "title": "Uniformitarianism in Geology",
+    "principle": "uniformitarianism in geology",
+    "principle_root": "uniformitarianism"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Isolation of Alkali and Alkaline Earth Metals (Electrochemistry)",
+    "principle": "isolation of alkali and alkaline earth metals",
+    "principle_root": "electrochemistry"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Modern Atomic Theory",
+    "principle": "modern atomic theory",
+    "principle_root": "atomic theory"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Avogadro's Law (Gas Volumes and Molecules)",
+    "principle": "avogadro's law",
+    "principle_root": "avogadro's law"
+  },
+  {
+    "field": "Physics",
+    "title": "Electromagnetism (Current Affects Compass Needle)",
+    "principle": "electromagnetism",
+    "principle_root": "electromagnetism"
+  },
+  {
+    "field": "Paleontology",
+    "title": "Early Dinosaur Fossil Interpretation (Iguanodon, Megalosaurus)",
+    "principle": "early dinosaur fossil interpretation",
+    "principle_root": "dinosaur fossils"
+  },
+  {
+    "field": "Geology",
+    "title": "Ice Age Theory (Glaciation)",
+    "principle": "ice age theory",
+    "principle_root": "glaciation"
+  },
+  {
+    "field": "Physics",
+    "title": "Mechanical Equivalent of Heat",
+    "principle": "mechanical equivalent of heat",
+    "principle_root": "mechanical equivalent of heat"
+  },
+  {
+    "field": "Physics",
+    "title": "Conservation of Energy (First Law of Thermodynamics)",
+    "principle": "conservation of energy",
+    "principle_root": "conservation"
+  },
+  {
+    "field": "Physics",
+    "title": "Doppler Effect",
+    "principle": "doppler effect",
+    "principle_root": "doppler effect"
+  },
+  {
+    "field": "Biology",
+    "title": "Germ Theory of Disease",
+    "principle": "germ theory of disease",
+    "principle_root": "germ theory"
+  },
+  {
+    "field": "Biology",
+    "title": "Theory of Natural Selection",
+    "principle": "natural selection",
+    "principle_root": "natural selection"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Spectral Analysis (Chemical Spectroscopy)",
+    "principle": "spectral analysis",
+    "principle_root": "spectroscopy"
+  },
+  {
+    "field": "Physics",
+    "title": "Unified Electromagnetic Theory",
+    "principle": "unified electromagnetic theory",
+    "principle_root": "electromagnetism"
+  },
+  {
+    "field": "Biology",
+    "title": "Laws of Inheritance",
+    "principle": "inheritance",
+    "principle_root": "inheritance"
+  },
+  {
+    "field": "Biology",
+    "title": "Deep-Sea Biodiversity (Challenger Expedition)",
+    "principle": "deep-sea biodiversity",
+    "principle_root": "biodiversity"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Periodic Table of Elements",
+    "principle": "periodic table of elements",
+    "principle_root": "periodicity"
+  },
+  {
+    "field": "Biology",
+    "title": "Mitosis (Chromosome Behavior)",
+    "principle": "mitosis",
+    "principle_root": "mitosis"
+  },
+  {
+    "field": "Physics",
+    "title": "X-Rays",
+    "principle": "x-rays",
+    "principle_root": "x-rays"
+  },
+  {
+    "field": "Medicine",
+    "title": "Human Blood Groups (ABO System)",
+    "principle": "human blood groups",
+    "principle_root": "blood groups"
+  },
+  {
+    "field": "Physics",
+    "title": "Electron Discovery",
+    "principle": "electron discovery",
+    "principle_root": "electron"
+  },
+  {
+    "field": "Microbiology",
+    "title": "Discovery of Viruses (Tobacco Mosaic Virus)",
+    "principle": "viruses",
+    "principle_root": "virus"
+  },
+  {
+    "field": "Cell Biology",
+    "title": "Identification and Naming of Mitochondria",
+    "principle": "identification and naming of mitochondria",
+    "principle_root": "mitochondria"
+  },
+  {
+    "field": "Physics",
+    "title": "Radioactivity (Polonium & Radium)",
+    "principle": "radioactivity",
+    "principle_root": "radioactivity"
+  },
+  {
+    "field": "Atmospheric Science",
+    "title": "Discovery of the Stratosphere",
+    "principle": "the stratosphere",
+    "principle_root": "stratosphere"
+  },
+  {
+    "field": "Physiology",
+    "title": "Discovery of Secretin (Hormone Signaling)",
+    "principle": "secretin",
+    "principle_root": "secretin"
+  },
+  {
+    "field": "Biochemistry",
+    "title": "Citric Acid Cycle (Krebs Cycle)",
+    "principle": "citric acid cycle",
+    "principle_root": "krebs cycle"
+  },
+  {
+    "field": "Physics",
+    "title": "Co-invention of the Transistor",
+    "principle": "co-invention of the transistor",
+    "principle_root": "transistor"
+  },
+  {
+    "field": "Cosmology",
+    "title": "Big Bang Nucleosynthesis Theory",
+    "principle": "big bang nucleosynthesis theory",
+    "principle_root": "big bang nucleosynthesis"
+  },
+  {
+    "field": "Mathematics",
+    "title": "Information Theory",
+    "principle": "information theory",
+    "principle_root": "information theory"
+  },
+  {
+    "field": "Genetics",
+    "title": "Discovery of Transposable Elements",
+    "principle": "transposable elements",
+    "principle_root": "transposable elements"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Miller-Urey Experiment (Abiotic Synthesis)",
+    "principle": "miller-urey experiment",
+    "principle_root": "abiotic synthesis"
+  },
+  {
+    "field": "Molecular Biology",
+    "title": "Structure of DNA (Double Helix)",
+    "principle": "dna",
+    "principle_root": "dna structure"
+  },
+  {
+    "field": "Geology",
+    "title": "Seafloor Spreading Hypothesis",
+    "principle": "seafloor spreading hypothesis",
+    "principle_root": "seafloor spreading"
+  },
+  {
+    "field": "Mathematics",
+    "title": "Chaos Theory (Deterministic Nonlinear Systems)",
+    "principle": "chaos theory",
+    "principle_root": "chaos"
+  },
+  {
+    "field": "Physics",
+    "title": "Quark Model of Hadrons",
+    "principle": "quark model of hadrons",
+    "principle_root": "quark model"
+  },
+  {
+    "field": "Astronomy",
+    "title": "Discovery of Pulsars",
+    "principle": "pulsars",
+    "principle_root": "pulsars"
+  },
+  {
+    "field": "Biology",
+    "title": "Endosymbiotic Theory",
+    "principle": "endosymbiotic theory",
+    "principle_root": "endosymbiosis"
+  },
+  {
+    "field": "Astronomy",
+    "title": "Galaxy Rotation Curves (Dark Matter Evidence)",
+    "principle": "galaxy rotation curves",
+    "principle_root": "dark matter"
+  },
+  {
+    "field": "Paleontology",
+    "title": "Warm-Blooded Dinosaur Hypothesis",
+    "principle": "warm-blooded dinosaur hypothesis",
+    "principle_root": "warm-blooded dinosaurs"
+  },
+  {
+    "field": "Astronomy",
+    "title": "First Exoplanet Around Sun-like Star (51 Pegasi b)",
+    "principle": "exoplanet around sun-like star",
+    "principle_root": "exoplanet"
+  },
+  {
+    "field": "Cosmology",
+    "title": "Accelerating Expansion of the Universe (Dark Energy)",
+    "principle": "accelerating expansion of the universe",
+    "principle_root": "dark energy"
+  },
+  {
+    "field": "Physics",
+    "title": "Earth's Magnetic Field",
+    "principle": "earth's magnetic field",
+    "principle_root": "geomagnetism"
+  },
+  {
+    "field": "Astronomy",
+    "title": "First Measurement of Speed of Light",
+    "principle": "measurement of speed of light",
+    "principle_root": "speed of light"
+  },
+  {
+    "field": "Medicine",
+    "title": "Smallpox Vaccination",
+    "principle": "smallpox vaccination",
+    "principle_root": "vaccination"
+  },
+  {
+    "field": "Physics",
+    "title": "Electric Battery (Voltaic Pile)",
+    "principle": "electric battery",
+    "principle_root": "battery"
+  },
+  {
+    "field": "Physics",
+    "title": "Electromagnetic Induction",
+    "principle": "electromagnetic induction",
+    "principle_root": "induction"
+  },
+  {
+    "field": "Physics",
+    "title": "X-rays",
+    "principle": "x-rays",
+    "principle_root": "x-rays"
+  },
+  {
+    "field": "Genomics",
+    "title": "Draft Human Genome Sequence",
+    "principle": "human genome sequence",
+    "principle_root": "human genome"
+  },
+  {
+    "field": "Physics",
+    "title": "Gravitational Waves Detection",
+    "principle": "gravitational waves detection",
+    "principle_root": "gravitational waves"
+  },
+  {
+    "field": "Astronomy",
+    "title": "First Image of a Black Hole",
+    "principle": "image of a black hole",
+    "principle_root": "black hole image"
+  },
+  {
+    "field": "Physics",
+    "title": "Earth's Magnetism (De Magnete)",
+    "principle": "earth's magnetism",
+    "principle_root": "geomagnetism"
+  },
+  {
+    "field": "Physics",
+    "title": "Voltaic Pile (First Electric Battery)",
+    "principle": "voltaic pile",
+    "principle_root": "battery"
+  },
+  {
+    "field": "Medicine",
+    "title": "Antiseptic Surgery",
+    "principle": "antiseptic surgery",
+    "principle_root": "antisepsis"
+  },
+  {
+    "field": "Medicine",
+    "title": "Penicillin (First Antibiotic)",
+    "principle": "penicillin",
+    "principle_root": "penicillin"
+  },
+  {
+    "field": "Astronomy",
+    "title": "Expanding Universe (Hubble's Law)",
+    "principle": "expanding universe",
+    "principle_root": "expanding universe"
+  },
+  {
+    "field": "Cosmology",
+    "title": "Cosmic Microwave Background Radiation",
+    "principle": "cosmic microwave background radiation",
+    "principle_root": "cosmic microwave background"
+  },
+  {
+    "field": "Biotechnology",
+    "title": "CRISPR-Cas9 Genome Editing",
+    "principle": "crispr-cas9 genome editing",
+    "principle_root": "crispr"
+  },
+  {
+    "field": "Physics",
+    "title": "Discovery of the Higgs Boson",
+    "principle": "the higgs boson",
+    "principle_root": "higgs boson"
+  },
+  {
+    "field": "Physics",
+    "title": "First Direct Detection of Gravitational Waves",
+    "principle": "direct detection of gravitational waves",
+    "principle_root": "gravitational waves"
+  },
+  {
+    "field": "Medicine",
+    "title": "Anesthesia for Surgery",
+    "principle": "anesthesia",
+    "principle_root": "anesthesia"
+  },
+  {
+    "field": "Medicine",
+    "title": "Discovery of Insulin",
+    "principle": "insulin",
+    "principle_root": "insulin"
+  },
+  {
+    "field": "Geology",
+    "title": "Continental Drift Hypothesis",
+    "principle": "continental drift",
+    "principle_root": "continental drift"
+  },
+  {
+    "field": "Physics",
+    "title": "General Theory of Relativity",
+    "principle": "general relativity",
+    "principle_root": "relativity"
+  },
+  {
+    "field": "Physics",
+    "title": "Photoelectric Effect Explanation",
+    "principle": "photoelectric effect",
+    "principle_root": "photoelectric effect"
+  },
+  {
+    "field": "Physics",
+    "title": "Discovery of the Neutron",
+    "principle": "the neutron",
+    "principle_root": "neutron"
+  },
+  {
+    "field": "Virology",
+    "title": "Reverse Transcriptase",
+    "principle": "reverse transcriptase",
+    "principle_root": "reverse transcriptase"
+  },
+  {
+    "field": "Biochemistry",
+    "title": "Prion Hypothesis",
+    "principle": "prions",
+    "principle_root": "prions"
+  },
+  {
+    "field": "Virology",
+    "title": "Discovery of HIV",
+    "principle": "hiv",
+    "principle_root": "HIV"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Quasicrystals Discovery",
+    "principle": "quasicrystals",
+    "principle_root": "quasicrystals"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Buckminsterfullerene (C60)",
+    "principle": "fullerene",
+    "principle_root": "fullerene"
+  },
+  {
+    "field": "Physics",
+    "title": "High-Temperature Superconductivity",
+    "principle": "high-temperature superconductivity",
+    "principle_root": "superconductivity"
+  },
+  {
+    "field": "Climate Science",
+    "title": "Greenhouse Effect Quantification",
+    "principle": "greenhouse effect",
+    "principle_root": "greenhouse effect"
+  },
+  {
+    "field": "Physics",
+    "title": "Wave Nature of Light (Double-Slit)",
+    "principle": "wave nature of light",
+    "principle_root": "wave nature"
+  },
+  {
+    "field": "Physics",
+    "title": "Radio Waves Discovery",
+    "principle": "radio waves",
+    "principle_root": "radio waves"
+  },
+  {
+    "field": "Physics",
+    "title": "Atomic Nucleus Discovery",
+    "principle": "atomic nucleus",
+    "principle_root": "nucleus"
+  },
+  {
+    "field": "Physics",
+    "title": "Cosmic Rays Discovery",
+    "principle": "cosmic rays",
+    "principle_root": "cosmic rays"
+  },
+  {
+    "field": "Physics",
+    "title": "Nuclear Fission",
+    "principle": "nuclear fission",
+    "principle_root": "nuclear fission"
+  },
+  {
+    "field": "Physics",
+    "title": "Electron Charge Measurement",
+    "principle": "electron charge",
+    "principle_root": "electron charge"
+  },
+  {
+    "field": "Biotechnology",
+    "title": "Polymerase Chain Reaction (PCR)",
+    "principle": "pcr",
+    "principle_root": "PCR"
+  },
+  {
+    "field": "Physics",
+    "title": "Statistical Mechanics and Entropy (Boltzmann)",
+    "principle": "statistical mechanics and entropy",
+    "principle_root": "entropy"
+  },
+  {
+    "field": "Mathematics",
+    "title": "Noether's Theorem",
+    "principle": "noether's theorem",
+    "principle_root": "symmetry"
+  },
+  {
+    "field": "Physics",
+    "title": "Spontaneous Symmetry Breaking in Particle Physics",
+    "principle": "spontaneous symmetry breaking",
+    "principle_root": "symmetry"
+  },
+  {
+    "field": "Computer Science",
+    "title": "Universal Turing Machine",
+    "principle": "universal computation",
+    "principle_root": "computation"
+  },
+  {
+    "field": "Computer Science",
+    "title": "Stored-Program Architecture (von Neumann)",
+    "principle": "stored-program architecture",
+    "principle_root": "computation"
+  },
+  {
+    "field": "Mathematics",
+    "title": "Bayes' Theorem Formalization",
+    "principle": "bayesian inference",
+    "principle_root": "probability"
+  },
+  {
+    "field": "Economics",
+    "title": "Game Theory (von Neumann & Morgenstern)",
+    "principle": "game theory",
+    "principle_root": "game theory"
+  },
+  {
+    "field": "Economics",
+    "title": "Nash Equilibrium",
+    "principle": "nash equilibrium",
+    "principle_root": "game theory"
+  },
+  {
+    "field": "Mathematics",
+    "title": "G\u00f6del's Incompleteness Theorems",
+    "principle": "incompleteness theorems",
+    "principle_root": "incompleteness"
+  },
+  {
+    "field": "Mathematics",
+    "title": "Fractal Geometry (Mandelbrot)",
+    "principle": "fractal geometry",
+    "principle_root": "fractals"
+  },
+  {
+    "field": "Mathematics",
+    "title": "Euler's Solution to the K\u00f6nigsberg Bridges Problem",
+    "principle": "k\u00f6nigsberg bridges solution",
+    "principle_root": "graph theory"
+  },
+  {
+    "field": "Mathematics",
+    "title": "Kolmogorov Axiomatization of Probability",
+    "principle": "axiomatization of probability",
+    "principle_root": "probability"
+  },
+  {
+    "field": "Chemistry",
+    "title": "Haber\u2013Bosch Process",
+    "principle": "haber\u2013bosch process",
+    "principle_root": "nitrogen fixation"
+  },
+  {
+    "field": "Geology",
+    "title": "Plate Tectonics Unification",
+    "principle": "plate tectonics unification",
+    "principle_root": "plate tectonics"
+  },
+  {
+    "field": "Physics",
+    "title": "Quantum Entanglement Experimental Confirmation (Aspect)",
+    "principle": "quantum entanglement confirmation",
+    "principle_root": "entanglement"
+  },
+  {
+    "field": "Physics",
+    "title": "Schr\u00f6dinger Equation (Wave Mechanics)",
+    "principle": "wave mechanics",
+    "principle_root": "quantum mechanics"
+  },
+  {
+    "field": "Biology",
+    "title": "DNA as Genetic Material (Avery\u2013MacLeod\u2013McCarty)",
+    "principle": "dna as genetic material",
+    "principle_root": "inheritance"
+  },
+  {
+    "field": "Biology",
+    "title": "Population Genetics Modern Synthesis",
+    "principle": "population genetics synthesis",
+    "principle_root": "population genetics"
+  },
+  {
+    "field": "Computer Science",
+    "title": "Algorithmic Information Theory (Kolmogorov/Chaitin/Solomonoff)",
+    "principle": "algorithmic information theory",
+    "principle_root": "complexity"
+  },
+  {
+    "field": "Genetics",
+    "title": "RNA Interference (Fire & Mello)",
+    "principle": "rna interference",
+    "principle_root": "gene regulation"
+  },
+  {
+    "field": "Physics",
+    "title": "First Operational Laser (Maiman)",
+    "principle": "optical laser",
+    "principle_root": "laser"
+  },
+  {
+    "field": "Genomics",
+    "title": "Sanger DNA Sequencing",
+    "principle": "sanger sequencing",
+    "principle_root": "sequencing"
+  },
+  {
+    "field": "Computer Science",
+    "title": "Public Key Cryptography (Diffie\u2013Hellman)",
+    "principle": "public key cryptography",
+    "principle_root": "encryption"
+  },
+  {
+    "field": "Computer Science",
+    "title": "Shor's Quantum Factoring Algorithm",
+    "principle": "shor's factoring algorithm",
+    "principle_root": "quantum computation"
+  },
+  {
+    "field": "Physics",
+    "title": "Noether-style Symmetry \u2192 Conservation Laws (Cross-Domain Link)",
+    "principle": "symmetry-conservation linkage",
+    "principle_root": "symmetry"
+  }
+]

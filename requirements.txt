@@ -1,0 +1,8 @@
+transformers
+datasets
+peft
+accelerate
+scipy
+torch
+sentencepiece
+# for bitsandbytes: use "pip3 install git+https://github.com/TimDettmers/bitsandbytes.git"

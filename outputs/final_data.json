@@ -1,0 +1,214 @@
+{
+  "axioms": [
+    {
+      "segment_index": 1,
+      "english": "The word chivalry has had various meanings throughout history.",
+      "formal": "Chivalry(x) \u2200x \u2208 History \u2192 VariousMeanings(x)",
+      "source": "../uploads/chivalry.pdf#segment-1"
+    },
+    {
+      "segment_index": 2,
+      "english": "Chivalry is an ideal that is distinct from other ideals.",
+      "formal": "Ideal(Chivalry) \u2227 \u2200y(Ideal(y) \u2192 Distinct(Chivalry, y))",
+      "source": "../uploads/chivalry.pdf#segment-2"
+    },
+    {
+      "segment_index": 2,
+      "english": "The Middle Ages contributed a unique conception of man to our culture.",
+      "formal": "Contributed(MiddleAges, UniqueConception(Man, Culture))",
+      "source": "../uploads/chivalry.pdf#segment-2"
+    },
+    {
+      "segment_index": 3,
+      "english": "Launcelot is characterized as the meekest man.",
+      "formal": "Characterized(Launcelot, Meekest(Man))",
+      "source": "../uploads/chivalry.pdf#segment-3"
+    },
+    {
+      "segment_index": 4,
+      "english": "The subject is characterized as both meek and stern.",
+      "formal": "Characterized(Subject, Meek) \u2227 Characterized(Subject, Stern)",
+      "source": "../uploads/chivalry.pdf#segment-4"
+    },
+    {
+      "segment_index": 5,
+      "english": "The ideal makes a double demand on human nature.",
+      "formal": "DoubleDemand(Ideal, HumanNature)",
+      "source": "../uploads/chivalry.pdf#segment-5"
+    },
+    {
+      "segment_index": 6,
+      "english": "The knight embodies a duality of character.",
+      "formal": "Embodies(Knight, Duality(Character))",
+      "source": "../uploads/chivalry.pdf#segment-6"
+    },
+    {
+      "segment_index": 7,
+      "english": "A true character cannot be defined as a compromise between contrasting traits.",
+      "formal": "\u00acDefine(TrueCharacter, Compromise(ContrastingTraits))",
+      "source": "../uploads/chivalry.pdf#segment-7"
+    },
+    {
+      "segment_index": 8,
+      "english": "Launcelot is recognized as the best knight in the world.",
+      "formal": "Recognized(Launcelot, BestKnight(World))",
+      "source": "../uploads/chivalry.pdf#segment-8"
+    },
+    {
+      "segment_index": 10,
+      "english": "It is terribly relevant.",
+      "formal": "TerriblyRelevant(It)",
+      "source": "../uploads/chivalry.pdf#segment-10"
+    },
+    {
+      "segment_index": 11,
+      "english": "The idea discussed may or may not be practicable.",
+      "formal": "MayBePracticable(IdeaDiscussed)",
+      "source": "../uploads/chivalry.pdf#segment-11"
+    },
+    {
+      "segment_index": 11,
+      "english": "The concept is certainly practical.",
+      "formal": "Practical(Concept)",
+      "source": "../uploads/chivalry.pdf#segment-11"
+    },
+    {
+      "segment_index": 12,
+      "english": "The medieval ideal encompasses two distinct concepts or entities.",
+      "formal": "Encompasses(MedievalIdeal, TwoDistinct(ConceptsEntities))",
+      "source": "../uploads/chivalry.pdf#segment-12"
+    },
+    {
+      "segment_index": 14,
+      "english": "Humility and forbearance are important virtues.",
+      "formal": "ImportantVirtues(Humility) \u2227 ImportantVirtues(Forbearance)",
+      "source": "../uploads/chivalry.pdf#segment-14"
+    },
+    {
+      "segment_index": 15,
+      "english": "Valour is demanded of individuals who are typically seen as urbane and modest.",
+      "formal": "Demanded(Valour, Individuals(Typically(Urbane, Modest)))",
+      "source": "../uploads/chivalry.pdf#segment-15"
+    },
+    {
+      "segment_index": 16,
+      "english": "The Middle Ages represented a period of hope for the world.",
+      "formal": "Represented(MiddleAges, Period(Hope, World))",
+      "source": "../uploads/chivalry.pdf#segment-16"
+    },
+    {
+      "segment_index": 17,
+      "english": "It may be possible to produce a character that combines two opposing traits.",
+      "formal": "Possible(ProduceCharacter(Combine(TwoOpposingTraits))",
+      "source": "../uploads/chivalry.pdf#segment-17"
+    },
+    {
+      "segment_index": 18,
+      "english": "It is not possible to attain lasting happiness or dignity in human society.",
+      "formal": "\u00acPossible(Attain(LastingHappiness \u2228 Dignity, HumanSociety))",
+      "source": "../uploads/chivalry.pdf#segment-18"
+    },
+    {
+      "segment_index": 19,
+      "english": "Humanity can be divided into two sections based on their abilities.",
+      "formal": "Divided(Humanity, TwoSections(BasedOn(Abilities)))",
+      "source": "../uploads/chivalry.pdf#segment-19"
+    },
+    {
+      "segment_index": 20,
+      "english": "The disassociation of the two halves of Launcelot leads to a simplification of history.",
+      "formal": "Disassociation(LauncelotHalves) \u2192 Leads(Simplification(History))",
+      "source": "../uploads/chivalry.pdf#segment-20"
+    },
+    {
+      "segment_index": 22,
+      "english": "Civilization can be destroyed by external forces.",
+      "formal": "CanBeDestroyed(Civilization, ExternalForces)",
+      "source": "../uploads/chivalry.pdf#segment-22"
+    },
+    {
+      "segment_index": 23,
+      "english": "Civilization leads to a loss of hardness or toughness.",
+      "formal": "Leads(Civilization, Loss(Hardness \u2228 Toughness))",
+      "source": "../uploads/chivalry.pdf#segment-23"
+    },
+    {
+      "segment_index": 24,
+      "english": "The knight is a combination of two distinct characters.",
+      "formal": "IsCombination(Knight, TwoDistinctCharacters)",
+      "source": "../uploads/chivalry.pdf#segment-24"
+    },
+    {
+      "segment_index": 24,
+      "english": "The knight is a product of art, not nature.",
+      "formal": "IsProduct(Knight, Art) \u2227 \u00acIsProduct(Knight, Nature)",
+      "source": "../uploads/chivalry.pdf#segment-24"
+    },
+    {
+      "segment_index": 25,
+      "english": "The combative side of man's nature is regarded as a pure, atavistic evil.",
+      "formal": "Regarded(CombativeSide(ManNature), PureAtavisticEvil)",
+      "source": "../uploads/chivalry.pdf#segment-25"
+    },
+    {
+      "segment_index": 26,
+      "english": "There exists a neo-heroic tradition that critiques chivalrous sentiments.",
+      "formal": "Exists(NeoHeroicTradition, Critiques(ChivalrousSentiments))",
+      "source": "../uploads/chivalry.pdf#segment-26"
+    },
+    {
+      "segment_index": 27,
+      "english": "The ferocity of Achilles is pronounced and relevant in a modern context.",
+      "formal": "Pronounced(Ferocity(Achilles)) \u2227 Relevant(Ferocity(Achilles, ModernContext))",
+      "source": "../uploads/chivalry.pdf#segment-27"
+    },
+    {
+      "segment_index": 31,
+      "english": "There is still life in the tradition inaugurated by the Middle Ages.",
+      "formal": "StillLife(Tradition(Inaugurated(MiddleAges)))",
+      "source": "../uploads/chivalry.pdf#segment-31"
+    },
+    {
+      "segment_index": 32,
+      "english": "The knightly character is art, not nature.",
+      "formal": "Is(KnightlyCharacter, Art) \u2227 \u00acIs(KnightlyCharacter, Nature)",
+      "source": "../uploads/chivalry.pdf#segment-32"
+    },
+    {
+      "segment_index": 32,
+      "english": "The achievement of the knightly character is essential for maintaining life.",
+      "formal": "Achievement(KnightlyCharacter) \u2192 Essential(Maintaining(Life))",
+      "source": "../uploads/chivalry.pdf#segment-32"
+    },
+    {
+      "segment_index": 33,
+      "english": "Knowledge is necessary for a democratic society.",
+      "formal": "Necessary(Knowledge, DemocraticSociety)",
+      "source": "../uploads/chivalry.pdf#segment-33"
+    },
+    {
+      "segment_index": 34,
+      "english": "The vestiges of chivalry were maintained by a specialized class.",
+      "formal": "Maintained(Vestiges(Chivalry), SpecializedClass)",
+      "source": "../uploads/chivalry.pdf#segment-34"
+    },
+    {
+      "segment_index": 35,
+      "english": "The people must be chivalrous on their own resources.",
+      "formal": "MustBe(Chivalrous(People), OwnResources)",
+      "source": "../uploads/chivalry.pdf#segment-35"
+    },
+    {
+      "segment_index": 39,
+      "english": "The ideal embodied in Launcelot is escapism.",
+      "formal": "Embodied(Ideal, Launcelot) = Escapism",
+      "source": "../uploads/chivalry.pdf#segment-39"
+    },
+    {
+      "segment_index": 39,
+      "english": "Chivalry offers the only possible escape from a divided world.",
+      "formal": "Offers(Chivalry, OnlyPossibleEscape(DividedWorld))",
+      "source": "../uploads/chivalry.pdf#segment-39"
+    }
+  ]
+}
